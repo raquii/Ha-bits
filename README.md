@@ -1,1 +1,1 @@
-# ha-bits
+Studio Ghibli Fan App

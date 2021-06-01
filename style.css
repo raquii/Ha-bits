@@ -1,0 +1,50 @@
+.results-pop-up{
+    display: none;
+    position: absolute;
+    background-color: #00000093;
+    color: white;
+    height: 15rem;
+    width: 15rem;
+    overflow: hidden;
+}
+
+#results-div{
+    margin: 1rem;
+}
+
+.results-card { 
+    border: grey solid 2px;
+    display: inline-grid;
+    height: 15rem;
+    margin: 0.5em;
+    width: 15rem;
+
+}
+
+.results-card img { 
+    height:inherit;
+    object-fit: cover;
+    width:inherit; 
+}
+
+.results-card:hover .results-pop-up{
+    display:block;
+}
+
+.results-pop-up h3{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+}
+
+.card-p{
+    display: -webkit-box;
+    max-width: 15rem;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+}
+
