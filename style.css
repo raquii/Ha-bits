@@ -3,8 +3,36 @@
     src: url(fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf);
 }
 
+html{
+    height: 100%;
+}
+
+/*main gradient*/
+body{
+    background-image: linear-gradient(#60bff0, #c7e7fc);
+}
+
+/*setting font*/
 *{
     font-family:AvantGardeMedium;
+}
+
+.headers{
+    color:#fafbfa;
+    margin-left: 1em;
+}
+
+#header-div{
+    border: #fafbfa solid 4px;
+    margin: 10pt;
+}
+
+#nav-div{
+    margin: 10pt;
+}
+
+.button{
+    
 }
 
 .results-pop-up{
