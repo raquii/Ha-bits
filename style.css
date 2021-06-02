@@ -1,3 +1,12 @@
+@font-face {
+    font-family: AvantGardeMedium;
+    src: url(fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf);
+}
+
+*{
+    font-family:AvantGardeMedium;
+}
+
 .results-pop-up{
     display: none;
     position: absolute;
@@ -42,6 +51,7 @@
     max-width: 15rem;
     -webkit-line-clamp: 9;
     -webkit-box-orient: vertical;
+    font-size: 9pt;
     overflow: hidden;
     padding-left: 10px;
     padding-right: 10px;
