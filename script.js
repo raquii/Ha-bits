@@ -16,6 +16,7 @@ searchBtn.addEventListener('submit', searchHandler);
 
 //fetch for film results
 function filmsHandler(){
+    resultsInfo.innerText = ''
     fetch('http://localhost:3000/films')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
@@ -23,6 +24,7 @@ function filmsHandler(){
 
 //fetch for director results
 function directorHandler(){
+    resultsInfo.innerText = ''
     fetch('http://localhost:3000/directors')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
@@ -30,6 +32,7 @@ function directorHandler(){
 
 //fetch for character results
 function charaHandler(){
+    resultsInfo.innerText = ''
     fetch('http://localhost:3000/characters')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
