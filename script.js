@@ -4,6 +4,7 @@ const directorsBtn = document.querySelector('#explore-directors');
 const charaBtn = document.querySelector('#explore-characters');
 const searchBtn = document.querySelector('#search-form');
 const resultsDiv = document.querySelector('#results-div');
+const resultsInfo = document.querySelector('#results-info');
 
 //event listeners for explore buttons
 filmsBtn.addEventListener('click', filmsHandler);
@@ -34,21 +35,64 @@ function charaHandler(){
     .then(data=>cardCreator(data));
 }
 
-//fetch for search bar
+//search bar handler
 function searchHandler(e){
     e.preventDefault();
-    const searchInput = document.querySelector('#keyword-input').value;
     const searchBy = document.querySelector('#search-select').value;
-    
+    const searchInput = document.querySelector('#keyword-input').value;
     if(searchBy === 'keyword'){
-        console.log('keyword search');
-    }else if(searchBy === 'director'){
-        console.log('director search');
+        keywordFetch(searchInput);
     }else if(searchBy === 'title'){
-        console.log('title search');
+        titleFetch(searchInput);
+    }else if(searchBy === 'director'){
+        directorFetch(searchInput);
     }else if(searchBy === 'character'){
-        console.log('character search');
+        characterFetch(searchInput);
     }
+}
+
+//fetches results by keywork search
+function keywordFetch(input){
+    fetch(`http://localhost:3000/films?q=${input}`)
+    .then(res => res.json())
+    .then(data => searchResults(data))
+}
+
+//fetches results by Title search
+function titleFetch(input){
+    fetch(`http://localhost:3000/films?title_like=${input}`)
+    .then(res => res.json())
+    .then(data => searchResults(data))
+}
+
+//fetches results by Character search
+function characterFetch(input){
+    fetch(`http://localhost:3000/characters?name_like=${input}`)
+    .then(res => res.json())
+    .then(data => searchResults(data))
+}
+
+//fetches results by Character search
+function directorFetch(input){
+    fetch(`http://localhost:3000/directors?name_like=${input}`)
+    .then(res => res.json())
+    .then(data => searchResults(data))
+}
+
+//search result display function
+function searchResults(data){
+    const navDiv = document.querySelector('#nav-div')
+    const resultsQuantity = data.length;
+    const searchInput = document.querySelector('#keyword-input');
+
+    if(data.length > 0){
+        resultsInfo.innerText = `Displaying ${resultsQuantity} results for '${searchInput.value}':`
+        cardCreator(data)  
+    }else{
+        resultsInfo.innerText = `Oh no! Soot Sprites must have carried away all of the results for '${searchInput.value}'. Try again!`
+    }
+    navDiv.appendChild(resultsInfo);
+    searchInput.value = '';  
 }
 
 // first removes any children of resultsDiv then loops each element in the data into the addCard function
