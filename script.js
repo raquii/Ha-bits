@@ -14,38 +14,17 @@ searchBtn.addEventListener('submit', searchHandler);
 
 //fetch for film results
 function filmsHandler(){
-    fetch('https://ghibliapi.herokuapp.com/films')
+    fetch(' http://localhost:3000/films')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
 
 //fetch for director results
 function directorHandler(){
-    fetch('https://ghibliapi.herokuapp.com/films')
+    fetch(' http://localhost:3000/directors')
     .then(r=>r.json())
-    .then(data=>console.log(data));
+    .then(data=>cardCreator(data));
 }
-
-//extracting director results from fetch
-//probably need to create director objects
-// function directorExtractor(data){
-//     console.log(data)
-//     const results = [];
-//     for(let i=0; i<data.length; i++){
-//         let filmName = data[i]['title'];
-//         let originalName= data[i]['original_title']
-//         let releaseDate = data[i]['release_date']
-//         if(!(results.includes(data[i]['director']))){
-//             let directorObj = data[i]['director']
-//             console.log(directorObj)
-//             // results.push(data[i]['director']);
-//         }//else{
-//             //add film title to film key
-//         //} 
-//     }
-//     console.log(results);
-
-// }
 
 //fetch for character results
 function charaHandler(){
@@ -87,6 +66,7 @@ function addCard(data){
     resultsCardDiv.id = data['id'];
     resultsCardDiv.className = 'results-card';
     resultsDiv.appendChild(resultsCardDiv);
+    
 
     const resultsImg = document.createElement('img');
     resultsImg.src = data['image'];
@@ -96,6 +76,7 @@ function addCard(data){
     const popupDiv = document.createElement('div');
     popupDiv.className = 'results-pop-up';
     resultsCardDiv.appendChild(popupDiv);
+    popupDiv.addEventListener('click', moreInfoHandler);
 
     const resultsHeader = document.createElement('h3');
     resultsHeader.className = 'card-title';
@@ -110,5 +91,8 @@ function addCard(data){
     description.className = 'card-p';
     description.innerText = data['description'];
     descriptDiv.appendChild(description)
+}
 
+function moreInfoHandler(e){
+    console.log(e.target.parentNode)
 }
