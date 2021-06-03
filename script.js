@@ -3,6 +3,7 @@ const filmsBtn = document.querySelector('#explore-films');
 const directorsBtn = document.querySelector('#explore-directors');
 const charaBtn = document.querySelector('#explore-characters');
 const searchBtn = document.querySelector('#search-form');
+const resultsDiv = document.querySelector('#results-div');
 
 //event listeners for explore buttons
 filmsBtn.addEventListener('click', filmsHandler);
@@ -53,6 +54,9 @@ function searchHandler(e){
 //loops each element in the array into the addCard function
 function cardCreator(data){
     console.log(data);
+    while (resultsDiv.firstChild){
+        resultsDiv.removeChild(resultsDiv.lastChild)
+    }
     for(let i=0; i<data.length; i++){
         addCard(data[i])
     }
@@ -60,8 +64,6 @@ function cardCreator(data){
 
 //creates elements for the results cards and appends them to the dom
 function addCard(data){
-    const resultsDiv = document.querySelector('#results-div');
-
     const resultsCardDiv = document.createElement('div');
     resultsCardDiv.id = data['id'];
     resultsCardDiv.className = 'results-card';
