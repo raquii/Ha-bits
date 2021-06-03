@@ -98,7 +98,6 @@ input[type=text]:focus {
     height: 15rem;
     margin: 0.5em;
     width: 15rem;
-
 }
 
 .results-card img { 
@@ -129,3 +128,38 @@ input[type=text]:focus {
     padding-top: 0px;
 }
 
+.more-info-div{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+
+.more-info-image{
+    border: grey solid 2px;
+    height: 50vh;
+    margin: 0.5em;
+    width: auto;
+}
+
+
+#more-info-text {
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.mini-cards{
+    border: grey solid 2px;
+    height: 12vh;
+    margin: 0.5em;
+    width: 12vh;
+    position: relative;
+}
+
+.mini-cards img {
+    height:inherit;
+    object-fit: cover;
+    width:12vh; 
+}
+
+.mini-cards-info{
+    position: absolute;
+}

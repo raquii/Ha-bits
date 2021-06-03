@@ -15,21 +15,21 @@ searchBtn.addEventListener('submit', searchHandler);
 
 //fetch for film results
 function filmsHandler(){
-    fetch(' http://localhost:3000/films')
+    fetch('http://localhost:3000/films')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
 
 //fetch for director results
 function directorHandler(){
-    fetch(' http://localhost:3000/directors')
+    fetch('http://localhost:3000/directors')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
 
 //fetch for character results
 function charaHandler(){
-    fetch('https://ghibliapi.herokuapp.com/people')
+    fetch('http://localhost:3000/characters')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
@@ -51,12 +51,12 @@ function searchHandler(e){
     }
 }
 
-//loops each element in the array into the addCard function
+// first removes any children of resultsDiv then loops each element in the data into the addCard function
 function cardCreator(data){
-    console.log(data);
     while (resultsDiv.firstChild){
         resultsDiv.removeChild(resultsDiv.lastChild)
     }
+
     for(let i=0; i<data.length; i++){
         addCard(data[i])
     }
@@ -69,20 +69,20 @@ function addCard(data){
     resultsCardDiv.className = 'results-card';
     resultsDiv.appendChild(resultsCardDiv);
     
-
     const resultsImg = document.createElement('img');
     resultsImg.src = data['image'];
     resultsImg.className = 'card-image';
     resultsCardDiv.appendChild(resultsImg);
+    resultsCardDiv.addEventListener('click', moreInfoHandler);
 
     const popupDiv = document.createElement('div');
     popupDiv.className = 'results-pop-up';
     resultsCardDiv.appendChild(popupDiv);
-    popupDiv.addEventListener('click', moreInfoHandler);
+    
 
     const resultsHeader = document.createElement('h3');
     resultsHeader.className = 'card-title';
-    resultsHeader.innerText = data['title'] ? data['title'] : data['name'];
+    resultsHeader.innerText = data['title'] ? data['title'] : data['name'] ;
     popupDiv.appendChild(resultsHeader);
 
     const descriptDiv = document.createElement('div');
@@ -96,5 +96,5 @@ function addCard(data){
 }
 
 function moreInfoHandler(e){
-    console.log(e.target.parentNode)
+    console.log(e.currentTarget.id)
 }
