@@ -22,7 +22,7 @@ function filmsHandler(){
     resultsInfo.innerText = '';
     endPointTracker.innerHTML = 'films/';
     
-    fetch('https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films')
+    fetch('http://localhost:3000/films')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
@@ -32,7 +32,7 @@ function directorHandler(){
     resultsInfo.innerText = ''
     endPointTracker.innerHTML = 'directors/';
 
-    fetch('https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/directors')
+    fetch('http://localhost:3000/directors')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
@@ -42,7 +42,7 @@ function charaHandler(){
     resultsInfo.innerText = ''
     endPointTracker.innerHTML = 'characters/';
 
-    fetch('https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters')
+    fetch('http://localhost:3000/characters')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
@@ -69,28 +69,28 @@ function searchHandler(e){
 
 //fetches results by keywork search
 function keywordFetch(input){
-    fetch(`https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films?q=${input}`)
+    fetch(`http://localhost:3000/films?q=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
 
 //fetches results by Title search
 function titleFetch(input){
-    fetch(`https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films?title_like=${input}`)
+    fetch(`http://localhost:3000/films?title_like=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
 
 //fetches results by Character search
 function characterFetch(input){
-    fetch(`https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters?name_like=${input}`)
+    fetch(`http://localhost:3000/characters?name_like=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
 
 //fetches results by Character search
 function directorFetch(input){
-    fetch(`https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/directors?name_like=${input}`)
+    fetch(`http://localhost:3000/directors?name_like=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
@@ -173,8 +173,9 @@ function addCard(data){
 //handles hidding current results and fetching data when user clicks on cards
 function moreInfoHandler(e){
     const id = e.currentTarget.id
+    moreInfoClearer();
 
-    fetch(`https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/${endPointTracker.innerText}${id}`)
+    fetch(`http://localhost:3000/${endPointTracker.innerText}${id}`)
     .then(res=>res.json())
     .then(data=>addMoreInfo(data))
 }
@@ -212,17 +213,36 @@ function addMoreInfo(data){
 
     const infoSubHeader = document.createElement('h3');
     infoSubHeader.className = 'more-info-sub';
-    infoSubHeader.innerText = data['original_title'] ? data['original_title'] : 'THIS IS SUPPOSED TO BE FILM TITLES';
+    if(data['original_title']){
+        infoSubHeader.innerText = data['original_title']
+    }else if(data['gender']){
+        infoSubHeader.innerText = data['films'][0]['title']
+    }else{
+        infoSubHeader.innerText = data['alt_name'];
+    };
     moreTextDiv.appendChild(infoSubHeader);
 
     const infoH4 = document.createElement('h4');
     infoH4.className = 'more-info-sub';
-    infoH4.innerText = data['director'] ? data['director'] : data['species'];
+    if(data['director']){
+        infoH4.innerText = data['director']
+    }else if(data['species']){
+        infoH4.innerText = data['species'];
+    }else{
+        infoH4.innerText = `Director`;
+    };
     moreTextDiv.appendChild(infoH4);
 
     const infoH42 = document.createElement('h4');
     infoH42.className = 'more-info-sub';
-    infoH42.innerText = data['release_date'] ? data['release_date'] : `Eye Color: ${data['eye_color']} Hair Color: ${data['hair_color']}`;
+    
+    if(data['release_date']){
+        infoH42.innerText = data['release_date']
+    }else if(data['eye_color']){
+        infoH42.innerText = `Age: ${data['age']}`;
+    }else{
+        infoH42.innerText = data['dates'];
+    };
     moreTextDiv.appendChild(infoH42);
 
     const infoP = document.createElement('p');
@@ -238,11 +258,53 @@ function addMoreInfo(data){
     miniHeader.className = 'mini-header';
     miniHeader.innerText = data['people'] ? `CHARACTERS:` : `FILMS:`;
     miniCardDiv.appendChild(miniHeader);
+    
+    miniCardFetcher(data);
+}
 
+//fetches mini cards data
+function miniCardFetcher(data){
+    console.log(`this is mini card fetchers ${data}`)
+    if(data['people']){
+        endPointTracker.innerText = 'characters/';
+        for(let i=0;i<data['people'].length; i++){
+            fetch(data['people'][i])
+            .then(res=>res.json())
+            .then(data=>miniCardCreator(data))
+        }
+    }else{
+        endPointTracker.innerText = 'films/';
+        for(let i=0;i<data['films'].length; i++){
+            fetch(data['films'][i]['url'])
+            .then(res=>res.json())
+            .then(data=>miniCardCreator(data))
+        }
+    }
+}
+
+//creates mini cards for more info card
+function miniCardCreator(data){
+    console.log(`this is mini card creators ${data}`);
+    const miniCardDiv = document.querySelector('#mini-grid')
+
+    const miniCard = document.createElement('div');
+    miniCard.id = data['id'];
+    miniCard.className = 'mini-cards';
+    miniCardDiv.appendChild(miniCard);
+    miniCard.addEventListener('click', moreInfoHandler);
+
+    const miniImg = document.createElement('img');
+    miniImg.src = data['image'];
+    miniImg.className = 'mini-card-img';
+    miniCard.appendChild(miniImg);
+
+    const miniInfo = document.createElement('h5');
+    miniInfo.innerText = data['name'] ? data['name'] : data['title'];
+    miniCard.appendChild(miniInfo)
 }
 
 //back button handler
-function backHandler(e){
+function backHandler(){
     moreInfoClearer();
     resultsDiv.style = 'display:';
 }

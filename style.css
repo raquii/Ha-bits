@@ -222,7 +222,7 @@ input[type=text]:focus {
 	border: #c7e7fc48 solid 2px;
     box-shadow: inset 0 0 0 #203daf63, 0 0 .8em #203daf63;
 	border-radius: 2pt;
-	height: 50vh;
+	height: 55vh;
 	margin: 0.5em;
 	width: auto;
 }
@@ -246,10 +246,11 @@ input[type=text]:focus {
 }
 
 #more-info-text h4 {
-	font-size: 12pt;
-	font-weight: lighter;
-	margin: 5pt 0pt 2pt 0pt;
-	width: 85%;
+    font-size: 12pt;
+    font-weight: lighter;
+    margin: 5pt 0pt 4pt 4pt;
+    order: 1;
+    flex: 1 1 95%;
 }
 
 #more-info-text p {
@@ -260,17 +261,21 @@ input[type=text]:focus {
 }
 
 #mini-grid {
-	display: inline-block;
+	display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .mini-cards {
 	border: #c7e7fc48 solid 2px;
-    box-shadow: inset 0 0 0 #203daf63, 0 0 .8em #203daf63;
-	border-radius: 2pt;
-	display: inline-block;
-	height: 12vh;
-	margin: 0em 0em 0em 0.1em;
-	width: 12vh;
+    box-shadow: inset 0 0 0 #203daf63, 0 0 0.8em #203daf63;
+    border-radius: 2pt;
+    height: 12vh;
+    margin: 0em 0em 2.5em 0.1em;
+    width: 12vh;
+    order: 2;
+    flex: 0 2 10%;
 }
 
 .mini-cards img {
@@ -279,6 +284,6 @@ input[type=text]:focus {
 	width: 12vh;
 }
 
-.mini-card-info h5 {
+.mini-cards h5 {
 	margin: 0;
 }

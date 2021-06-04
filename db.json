@@ -13,19 +13,19 @@
       "running_time": "124",
       "rt_score": "95",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/0",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/1",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/2",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/3",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/4",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/5",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/6",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/7",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/8",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/9",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/10",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/39",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/42"
+        "http://localhost:3000/characters/0",
+        "http://localhost:3000/characters/1",
+        "http://localhost:3000/characters/2",
+        "http://localhost:3000/characters/3",
+        "http://localhost:3000/characters/4",
+        "http://localhost:3000/characters/5",
+        "http://localhost:3000/characters/6",
+        "http://localhost:3000/characters/7",
+        "http://localhost:3000/characters/8",
+        "http://localhost:3000/characters/9",
+        "http://localhost:3000/characters/10",
+        "http://localhost:3000/characters/39",
+        "http://localhost:3000/characters/42"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -36,7 +36,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+      "url": "http://localhost:3000/films/0"
     },
     {
       "id": "1",
@@ -51,7 +51,7 @@
       "running_time": "89",
       "rt_score": "97",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -62,7 +62,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/1"
+      "url": "http://localhost:3000/films/1"
     },
     {
       "id": "2",
@@ -77,16 +77,16 @@
       "running_time": "86",
       "rt_score": "93",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/22",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/23",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/24",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/25",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/28",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/29",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/30",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/31",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/26",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/27"
+        "http://localhost:3000/characters/22",
+        "http://localhost:3000/characters/23",
+        "http://localhost:3000/characters/24",
+        "http://localhost:3000/characters/25",
+        "http://localhost:3000/characters/28",
+        "http://localhost:3000/characters/29",
+        "http://localhost:3000/characters/30",
+        "http://localhost:3000/characters/31",
+        "http://localhost:3000/characters/26",
+        "http://localhost:3000/characters/27"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -99,7 +99,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+      "url": "http://localhost:3000/films/2"
     },
     {
       "id": "3",
@@ -114,7 +114,7 @@
       "running_time": "102",
       "rt_score": "96",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/21"
+        "http://localhost:3000/characters/21"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -125,7 +125,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/3"
+      "url": "http://localhost:3000/films/3"
     },
     {
       "id": "4",
@@ -140,7 +140,7 @@
       "running_time": "118",
       "rt_score": "100",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -151,7 +151,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/4"
+      "url": "http://localhost:3000/films/4"
     },
     {
       "id": "5",
@@ -166,7 +166,7 @@
       "running_time": "93",
       "rt_score": "94",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/40"
+        "http://localhost:3000/characters/40"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -177,7 +177,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/5"
+      "url": "http://localhost:3000/films/5"
     },
     {
       "id": "6",
@@ -192,7 +192,7 @@
       "running_time": "119",
       "rt_score": "78",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -203,7 +203,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/6"
+      "url": "http://localhost:3000/films/6"
     },
     {
       "id": "7",
@@ -218,8 +218,8 @@
       "running_time": "111",
       "rt_score": "91",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/33",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/37"
+        "http://localhost:3000/characters/33",
+        "http://localhost:3000/characters/37"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -230,7 +230,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/7"
+      "url": "http://localhost:3000/films/7"
     },
     {
       "id": "8",
@@ -245,16 +245,16 @@
       "running_time": "134",
       "rt_score": "92",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/11",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/12",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/18",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/19",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/20",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/13",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/14",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/15",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/16",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/17"
+        "http://localhost:3000/characters/11",
+        "http://localhost:3000/characters/12",
+        "http://localhost:3000/characters/18",
+        "http://localhost:3000/characters/19",
+        "http://localhost:3000/characters/20",
+        "http://localhost:3000/characters/13",
+        "http://localhost:3000/characters/14",
+        "http://localhost:3000/characters/15",
+        "http://localhost:3000/characters/16",
+        "http://localhost:3000/characters/17"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
@@ -267,7 +267,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+      "url": "http://localhost:3000/films/8"
     },
     {
       "id": "9",
@@ -282,7 +282,7 @@
       "running_time": "104",
       "rt_score": "75",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -293,7 +293,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/9"
+      "url": "http://localhost:3000/films/9"
     },
     {
       "id": "10",
@@ -308,7 +308,7 @@
       "running_time": "124",
       "rt_score": "97",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -319,7 +319,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/10"
+      "url": "http://localhost:3000/films/10"
     },
     {
       "id": "11",
@@ -334,12 +334,12 @@
       "running_time": "75",
       "rt_score": "89",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/33",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/34",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/35",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/36",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/37",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/38"
+        "http://localhost:3000/characters/33",
+        "http://localhost:3000/characters/34",
+        "http://localhost:3000/characters/35",
+        "http://localhost:3000/characters/36",
+        "http://localhost:3000/characters/37",
+        "http://localhost:3000/characters/38"
         
       ],
       "species": [
@@ -351,7 +351,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/11"
+      "url": "http://localhost:3000/films/11"
     },
     {
       "id": "12",
@@ -366,7 +366,7 @@
       "running_time": "119",
       "rt_score": "87",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -377,7 +377,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/12"
+      "url": "http://localhost:3000/films/12"
     },
     {
       "id": "13",
@@ -392,7 +392,7 @@
       "running_time": "116",
       "rt_score": "41",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -403,7 +403,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/13"
+      "url": "http://localhost:3000/films/13"
     },
     {
       "id": "14",
@@ -418,7 +418,7 @@
       "running_time": "100",
       "rt_score": "92",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/41"
+        "http://localhost:3000/characters/41"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -429,7 +429,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/14"
+      "url": "http://localhost:3000/films/14"
     },
     {
       "id": "15",
@@ -444,7 +444,7 @@
       "running_time": "94",
       "rt_score": "95",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/32"
+        "http://localhost:3000/characters/32"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -455,7 +455,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/15"
+      "url": "http://localhost:3000/films/15"
     },
     {
       "id": "16",
@@ -470,7 +470,7 @@
       "running_time": "91",
       "rt_score": "83",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -481,7 +481,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/16"
+      "url": "http://localhost:3000/films/16"
     },
     {
       "id": "17",
@@ -496,7 +496,7 @@
       "running_time": "126",
       "rt_score": "89",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -507,7 +507,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/17"
+      "url": "http://localhost:3000/films/17"
     },
     {
       "id": "18",
@@ -522,7 +522,7 @@
       "running_time": "137",
       "rt_score": "100",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -533,7 +533,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/18"
+      "url": "http://localhost:3000/films/18"
     },
     {
       "id": "19",
@@ -548,7 +548,7 @@
       "running_time": "103",
       "rt_score": "92",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
@@ -559,7 +559,7 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/19"
+      "url": "http://localhost:3000/films/19"
     },
     {
       "id": "20",
@@ -574,7 +574,7 @@
       "running_time": "80",
       "rt_score": "93",
       "people": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/"
+        "http://localhost:3000/characters/"
       ],
       "species": [
         "https://ghibliapi.herokuapp.com/species/"
@@ -585,147 +585,161 @@
       "vehicles": [
         "https://ghibliapi.herokuapp.com/vehicles/"
       ],
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/20"
+      "url": "http://localhost:3000/films/20"
     }
   ],
   "directors": [
     {
       "id": "0",
       "name": "Hayao Miyazaki",
+      "alt_name": "宮崎 駿",
+      "dates": "b. 1941",
       "description": "",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg",
       "films": [
         {
           "title": "Castle in the Sky",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+          "url": "http://localhost:3000/films/0"
         },
         {
           "title": "My Neighbor Totoro",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+          "url": "http://localhost:3000/films/2"
         },
         {
           "title": "Kiki's Delivery Service",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/3"
+          "url": "http://localhost:3000/films/3"
         },
         {
           "title": "Porco Rosso",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/5"
+          "url": "http://localhost:3000/films/5"
         },
         {
           "title": "Princess Mononoke",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+          "url": "http://localhost:3000/films/8"
         },
         {
           "title": "Spirited Away",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/10"
+          "url": "http://localhost:3000/films/10"
         },
         {
           "title": "Howl's Moving Castle",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/12"
+          "url": "http://localhost:3000/films/12"
         },
         {
           "title": "Ponyo",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/14"
+          "url": "http://localhost:3000/films/14"
         },
         {
           "title": "The Wind Rises",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/17"
+          "url": "http://localhost:3000/films/17"
         }
       ]
     },
     {
       "id": "1",
       "name": "Isao Takahata",
+      "alt_name": "高畑 勲",
+      "dates": "1935-2018",
       "description": "",
       "image": "https://m.media-amazon.com/images/M/MV5BNDM5OTc2NjI1MV5BMl5BanBnXkFtZTgwOTI3MjA4MTE@._V1_.jpg",
       "films": [
         {
           "title": "Grave of the Fireflies",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/1"
+          "url": "http://localhost:3000/films/1"
         },
         {
           "title": "Only Yesterday",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/4"
+          "url": "http://localhost:3000/films/4"
         },
         {
           "title": "Pom Poko",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/6"
+          "url": "http://localhost:3000/films/6"
         },
         {
           "title": "My Neighbors the Yamadas",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/9"
+          "url": "http://localhost:3000/films/9"
         },
         {
           "title": "The Tale of the Princess Kaguya",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/18"
+          "url": "http://localhost:3000/films/18"
         }
       ]
     },
     {
       "id": "2",
       "name": "Yoshifumi Kondō",
+      "alt_name": "近藤 喜文",
+      "dates": "1950-1998",
       "description": "",
       "image": "https://8hours-prod.s3.amazonaws.com/uploads/2019/02/Yoshifumi-Kondou.jpg",
       "films": [
         {
           "title": "Whisper of the Heart",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/7"
+          "url": "http://localhost:3000/films/7"
         }
       ]
     },
     {
       "id": "3",
       "name": "Hiroyuki Morita",
+      "alt_name": "森田 宏幸",
+      "dates": "b. 1964",
       "description": "",
       "image": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b3/Morita.jpg",
       "films": [
         {
           "title": "The Cat Returns",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/11"
+          "url": "http://localhost:3000/films/11"
         }
       ]
     },
     {
       "id": "4",
       "name": "Gorō Miyazaki",
+      "alt_name": "宮崎 吾朗",
+      "dates": "b. 1967",
       "description": "",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Gor%C5%8D_Miyazaki.jpg",
       "films": [
         {
           "title": "Tales from Earthsea",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/13"
+          "url": "http://localhost:3000/films/13"
         },
         {
           "title": "From Up on Poppy Hill",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/16"
+          "url": "http://localhost:3000/films/16"
         }
       ]
     },
     {
       "id": "5",
       "name": "Hiromasa Yonebayashi",
+      "alt_name": "米林 宏昌",
+      "dates": "b. 1973",
       "description": "",
       "image": "https://static.wikia.nocookie.net/studio-ghibli/images/9/9c/Hiromasa_Yonebayashi.jpg",
       "films": [
         {
           "title": "The Secret World of Arrietty",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/15"
+          "url": "http://localhost:3000/films/15"
         },
         {
           "title": "When Marnie Was There",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/19"
+          "url": "http://localhost:3000/films/19"
         }
       ]
     },
     {
       "id": "6",
       "name": "Michaël Dudok de Wit",
+      "alt_name": "",
+      "dates": "b. 1953",
       "description": "",
       "image": "https://www.indiewire.com/wp-content/uploads/2017/01/michael-dudok-de-wit.jpg",
       "films": [
         {
           "title": "The Red Turtle",
-          "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/20"
+          "url": "http://localhost:3000/films/20"
         }
       ]
     }
@@ -741,10 +755,13 @@
       "image": "https://static.wikia.nocookie.net/studio-ghibli/images/8/8b/Pazu.jpg",
       "description": "Pazu is an orphan who lives alone in a small hut atop a hill in Slag Ravine. While no mention is made of his mother, his father was an avid aviator who, though no one had believed him, had previously discovered and photographed the floating kingdom of Laputa. After his death, Pazu swore that he would find Laputa and prove his father right.",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/0"
+      "url": "http://localhost:3000/characters/0"
     },
     {
       "id": "1",
@@ -756,10 +773,13 @@
       "image": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c3/Sheeta.jpg",
       "description": "Sheeta is the rightful princess of Laputa. She possesses an Aetherium crystal, which can save her in times of danger. Possessing the Aetherium crystal, she is chased down by the Dola gang, Muska, and the military. Muska manages to capture her and take her into custody aboard the civilian passenger airship Saturn.",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/1"
+      "url": "http://localhost:3000/characters/1"
     },
     {
       "id": "2",
@@ -771,10 +791,13 @@
       "image": "http://cdn.playbuzz.com/cdn/2b4b3e35-1e9f-4b7f-bc9e-8580f88525f4/05b9ecd9-bd01-434a-96b7-7135a665dac3.jpg",
       "description": "Dola is the captain of a band of air pirates in Laputa: Castle in the Sky. Her nemesis is Colonel Muska. She is interested in the treasures of the ancient floating city of Laputa, which initially puts her at odds with the film's protagonists.",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/2"
+      "url": "http://localhost:3000/characters/2"
     },
     {
       "id": "3",
@@ -786,10 +809,13 @@
       "image": "https://static.wikia.nocookie.net/studio-ghibli/images/d/d5/Muska.jpg",
       "description": "Colonel Muska is a government special agent and the main antagonist of the movie Laputa: Castle in the Sky. His goal is to seize control of Laputa's superior technological power by using the Aetherium crystal.",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/3"
+      "url": "http://localhost:3000/characters/3"
     },
     {
       "id": "4",
@@ -801,10 +827,13 @@
       "image": "https://www.anime-planet.com/images/characters/uncle-pom-19051.jpg",
       "description": "Uncle Pom is an old coal miner in Laputa: Castle in the Sky. He is usually found in the deeper parts of mines and rarely ever goes above ground. He is a kind, old man that the townspeople call Uncle Pom, because he looks out for everyone. He is especially fond of Pazu.",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/4"
+      "url": "http://localhost:3000/characters/4"
     },
     {
       "id": "5",
@@ -816,10 +845,13 @@
       "image": "https://static.wikia.nocookie.net/studio-ghibli/images/1/12/Muoro.jpg",
       "description": "General Muoro is the secondary antagonist in Laputa: Castle in the Sky. Muoro is a general in the army and is Colonel Muska's subordinate. Muoro is abrasive and aggressive, and he likes being in control. He resents Muska's authority over the army and the Laputa project, and he is sometimes suspicious of Muska's actions.",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/5"
+      "url": "http://localhost:3000/characters/5"
     },
     {
       "id": "6",
@@ -831,10 +863,13 @@
       "image": "https://www.anime-planet.com/images/characters/duffi-19034.jpg",
       "description": "Mr. Duffi is the boss of Pazu in Laputa: Castle in the Sky. Mr. Duffi has a wife, Okami, and a young daughter, Madge. ",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/6"
+      "url": "http://localhost:3000/characters/6"
     },
     {
       "id": "7",
@@ -846,10 +881,13 @@
       "image": "https://static.wikia.nocookie.net/studio-ghibli/images/2/28/Charlies.jpg",
       "description": "Louis is Dola's eldest son and a member of her gang of air pirates in the movie Laputa: Castle in the Sky.",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/7"
+      "url": "http://localhost:3000/characters/7"
     },
     {
       "id": "8",
@@ -861,10 +899,13 @@
       "image": "https://animecult.org/uploads/attachment/cover/4051/characters_34846.jpg",
       "description": "Charles is Dola's second-oldest son and a member of her gang in Laputa: Castle in the Sky.",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/8"
+      "url": "http://localhost:3000/characters/8"
     },
     {
       "id": "9",
@@ -876,10 +917,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/9"
+      "url": "http://localhost:3000/characters/9"
     },
     {
       "id": "10",
@@ -891,10 +935,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/10"
+      "url": "http://localhost:3000/characters/10"
     },
     {
       "id": "11",
@@ -906,10 +953,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/11"
+      "url": "http://localhost:3000/characters/11"
     },
     {
       "id": "12",
@@ -921,10 +971,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/12"
+      "url": "http://localhost:3000/characters/12"
     },
     {
       "id": "13",
@@ -936,10 +989,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/13"
+      "url": "http://localhost:3000/characters/13"
     },
     {
       "id": "14",
@@ -951,10 +1007,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/14"
+      "url": "http://localhost:3000/characters/14"
     },
     {
       "id": "15",
@@ -966,10 +1025,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/15"
+      "url": "http://localhost:3000/characters/15"
     },
     {
       "id": "16",
@@ -981,10 +1043,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/16"
+      "url": "http://localhost:3000/characters/16"
     },
     {
       "id": "17",
@@ -996,10 +1061,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/17"
+      "url": "http://localhost:3000/characters/17"
     },
     {
       "id": "18",
@@ -1011,10 +1079,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/18"
+      "url": "http://localhost:3000/characters/18"
     },
     {
       "id": "19",
@@ -1026,10 +1097,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/19"
+      "url": "http://localhost:3000/characters/19"
     },
     {
       "id": "20",
@@ -1041,10 +1115,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/8"
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/f25fa661-3073-414d-968a-ab062e3065f7",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/20"
+      "url": "http://localhost:3000/characters/20"
     },
     {
       "id": "21",
@@ -1056,10 +1133,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/3"
+        {
+          "title": "Kiki's Delivery Service",
+          "url": "http://localhost:3000/films/3"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/21"
+      "url": "http://localhost:3000/characters/21"
     },
     {
       "id": "22",
@@ -1071,10 +1151,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/22"
+      "url": "http://localhost:3000/characters/22"
     },
     {
       "id": "23",
@@ -1086,10 +1169,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/23"
+      "url": "http://localhost:3000/characters/23"
     },
     {
       "id": "24",
@@ -1101,10 +1187,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/24"
+      "url": "http://localhost:3000/characters/24"
     },
     {
       "id": "25",
@@ -1116,10 +1205,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/25"
+      "url": "http://localhost:3000/characters/25"
     },
     {
       "id": "26",
@@ -1131,10 +1223,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/26"
+      "url": "http://localhost:3000/characters/26"
     },
     {
       "id": "27",
@@ -1146,10 +1241,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/27"
+      "url": "http://localhost:3000/characters/27"
     },
     {
       "id": "28",
@@ -1161,10 +1259,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/28"
+      "url": "http://localhost:3000/characters/28"
     },
     {
       "id": "29",
@@ -1176,10 +1277,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/29"
+      "url": "http://localhost:3000/characters/29"
     },
     {
       "id": "30",
@@ -1191,10 +1295,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/30"
+      "url": "http://localhost:3000/characters/30"
     },
     {
       "id": "31",
@@ -1206,10 +1313,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/2"
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/31"
+      "url": "http://localhost:3000/characters/31"
     },
     {
       "id": "32",
@@ -1221,10 +1331,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/15"
+        {
+          "title": "The Secret World of Arrietty",
+          "url": "http://localhost:3000/films/15"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/32"
+      "url": "http://localhost:3000/characters/32"
     },
     {
       "id": "33",
@@ -1236,11 +1349,17 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/11",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/7"
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        },
+        {
+          "title": "Whisper of the Heart",
+          "url": "http://localhost:3000/films/7"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/33"
+      "url": "http://localhost:3000/characters/33"
     },
     {
       "id": "34",
@@ -1252,10 +1371,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/11"
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/34"
+      "url": "http://localhost:3000/characters/34"
     },
     {
       "id": "35",
@@ -1267,10 +1389,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/11"
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/35"
+      "url": "http://localhost:3000/characters/35"
     },
     {
       "id": "36",
@@ -1282,10 +1407,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/11"
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/36"
+      "url": "http://localhost:3000/characters/36"
     },
     {
       "id": "37",
@@ -1297,11 +1425,17 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/7",
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/11"
+        {
+          "title": "Whisper of the Heart",
+          "url": "http://localhost:3000/films/7"
+        },
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/37"
+      "url": "http://localhost:3000/characters/37"
     },
     {
       "id": "38",
@@ -1313,10 +1447,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/11"
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/38"
+      "url": "http://localhost:3000/characters/38"
     },
     {
       "id": "39",
@@ -1328,10 +1465,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/39"
+      "url": "http://localhost:3000/characters/39"
     },
     {
       "id": "40",
@@ -1343,10 +1483,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/5"
+        {
+          "title": "Porco Rosso",
+          "url": "http://localhost:3000/films/5"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/40"
+      "url": "http://localhost:3000/characters/40"
     },
     {
       "id": "41",
@@ -1358,10 +1501,13 @@
       "image": "",
       "description": "",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/14"
+        {
+          "title": "Ponyo",
+          "url": "http://localhost:3000/films/14"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/41"
+      "url": "http://localhost:3000/characters/41"
     },
     {
       "id": "42",
@@ -1373,10 +1519,13 @@
       "image": "https://www.anime-planet.com/images/characters/henri-19053.jpg",
       "description": "Henri is Dola's third oldest son and a member of her gang of air pirates in Laputa: Castle in the Sky.",
       "films": [
-        "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films/0"
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
       ],
       "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-      "url": "https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters/42"
+      "url": "http://localhost:3000/characters/42"
     }
   ]
 }
