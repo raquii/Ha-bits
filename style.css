@@ -1,6 +1,6 @@
 @font-face {
     font-family: AvantGardeMedium;
-    src: url(fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf);
+    src: url(filmstyles/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf);
 }
 
 html{
@@ -20,25 +20,32 @@ body{
 .headers{
     color:#fafbfa;
     margin-left: 1em;
+    margin-right: .5em;
     display: inline-block;
 }
 
 #ghibli-header-div{
     border: #fafbfa solid 4px;
     margin: 10pt;
+    box-shadow: inset 0 0 0.8em rgba(255,255,255,0.3), 0 0 0.8em rgba(255,255,255,0.3);
 }
 
 #nav-div{
     margin: 10pt;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
     text-align: center;
-    display:block;
+    display: flex;
+    flex-flow: row wrap;   
 }
 
+#explore-div{
+    flex-basis: 100%;
+}
 
-.button{
+#search-div{
+    flex-basis: 100%;
+}
+
+#explore-div .button{
 	color: #fafbfa;
 	background: none;
 	border-radius: 2em;
@@ -46,17 +53,18 @@ body{
 	padding: 1em 4em;
 	letter-spacing: 0.35em;
 	font-size: 0.7em;
+    font-weight: bolder;
 	transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
-	margin: .8em;
+	margin: 0.4em .8em .8em .8em;
     box-shadow: inset 0 0 0.8em rgba(255,255,255,0.3), 0 0 0.8em rgba(255,255,255,0.3);
 	border: #fafbfa solid 2px;   
-    display: inline-block;
 }
 
-.button:hover{
+#explore-div .button:hover{
     color: #60bff0;
 	background-color: #fafbfa;
 	box-shadow: inset 0 0 0 rgba(255,255,255,0.3), 0 0 1.2em rgba(255,255,255,0.5);
+    border: #60bff0 solid 2px;  
 }
 
 input[type=text]{
@@ -64,18 +72,65 @@ input[type=text]{
     background: none;
     border-radius: 4pt;
     border: #fafbfa solid 2px; 
-    font-size: 16px;  
-    vertical-align: middle;
-    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;  
+    padding: .2em 1.4em .1em .8em;
+    display: inline-flex;
+    box-shadow: inset 0 0 0.8em rgba(255,255,255,0.3), 0 0 0.8em rgba(255,255,255,0.3);
     transition: 180ms box-shadow ease-in-out;  
 }
-/* What if you added a color change on focus?? */
+
 input[type=text]:focus {
     outline: 3px solid transparent;
     border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
     box-shadow: 0 0 0 3px hsla(var(--input-focus-h), var(--input-focus-s), calc(var(--input-focus-l) +40%), 0.8);
     background:#fafbfa;
     color:#60bff0;
+}
+
+#search-select{
+    display:inline-flex;
+    font-size: 16px;
+    width:auto;
+    padding: .25em 1.4em 0.1em 1.2em;
+    border-radius: 4pt;
+    color: #fafbfa;
+    background: none;
+    border: #fafbfa solid 2px; 
+    box-shadow: inset 0 0 0.8em rgba(255,255,255,0.3), 0 0 0.8em rgba(255,255,255,0.3);
+}
+
+#search-select:focus {
+    outline: none;
+}    
+
+#search-div .button{
+	color: #fafbfa;
+	background: none;
+	border-radius: 2em;
+    vertical-align: middle;
+	padding: .8em 4em;
+	letter-spacing: 0.35em;
+	font-size: 0.75em;
+    font-weight: bolder;
+	transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+	margin: 0.4em .8em .8em .8em;
+    box-shadow: inset 0 0 0.8em rgba(255,255,255,0.3), 0 0 0.8em rgba(255,255,255,0.3);
+	border: #fafbfa solid 2px;   
+    display: inline-flex;
+}
+
+#search-div .button:hover{
+    color: #60bff0;
+	background-color: #fafbfa;
+	box-shadow: inset 0 0 0 rgba(255,255,255,0.3), 0 0 1.2em rgba(255,255,255,0.5);
+    border: #60bff0 solid 2px;    
+}
+
+#results-info{
+    margin: 0 auto;
+    text-align: center;
+    color:#fafbfa;
 }
 
 .results-pop-up{
@@ -126,40 +181,4 @@ input[type=text]:focus {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 0px;
-}
-
-.more-info-div{
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.233);
-}
-
-.more-info-image{
-    border: grey solid 2px;
-    height: 50vh;
-    margin: 0.5em;
-    width: auto;
-}
-
-
-#more-info-text {
-    flex-grow: 1;
-    align-self: flex-end;
-}
-
-.mini-cards{
-    border: grey solid 2px;
-    height: 12vh;
-    margin: 0.5em;
-    width: 12vh;
-    position: relative;
-}
-
-.mini-cards img {
-    height:inherit;
-    object-fit: cover;
-    width:12vh; 
-}
-
-.mini-cards-info{
-    position: absolute;
 }

@@ -1,0 +1,208 @@
+@font-face {
+    font-family: AvantGardeMedium;
+    src: url(fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf);
+}
+
+html{
+    height: 100%;
+}
+
+/*main gradient*/
+body{
+    background-image: linear-gradient(#1e5a6d, #1B3E52);
+}
+
+/*setting font*/
+*{
+    font-family:AvantGardeMedium;
+}
+
+.headers{
+    color:#d6d4d0;
+    margin-left: 1em;
+    margin-right: .5em;
+    display: inline-block;
+}
+
+#ghibli-header-div{
+    border: #d6d4d0 solid 4px;
+    margin: 10pt;
+    box-shadow: inset 0 0 0.8em #8f353585, 0 0 0.8em #8f353585;
+}
+
+#nav-div{
+    margin: 10pt;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;   
+}
+
+#explore-div{
+    flex-basis: 100%;
+}
+
+#search-div{
+    flex-basis: 100%;
+}
+
+#explore-div .button{
+	color: #dd496e;
+	background: #fafbfae8;
+	border-radius: 2em;
+    vertical-align: middle;
+	padding: 1em 4em;
+	letter-spacing: 0.35em;
+	font-size: 0.7em;
+    font-weight: bolder;
+	transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+	margin: 0.4em .8em .8em .8em;
+    box-shadow: inset 0 0 0.8em #8f353585, 0 0 0.8em #8f353585;
+	border: #af3554 solid 2px;   
+}
+
+#explore-div .button:hover{
+    color: #fafbfa;
+	background-color: #8f353585;
+	box-shadow: inset 0 0 0 #8f353585, 0 0 1.2em #8f353585;
+    border: #fafbfa solid 2px;   
+}
+
+
+
+input[type=text]{
+    color: #e3a165;
+    background: none;
+    border-radius: 4pt;
+    border: #d6d4d0 solid 2px; 
+    font-size: 16px;  
+    line-height: 22px;
+    padding: .2em 1.4em .1em .8em;
+    display: inline-flex;
+    box-shadow: inset 0 0 0 #e3a2657a, 0 0 .8em #e3a2657a;
+    transition: 180ms box-shadow ease-in-out;  
+}
+
+input[type=text]:focus {
+    outline: 3px solid transparent;
+    border-color: hsl(var(--input-focus-h), var(--input-focus-s), var(--input-focus-l));
+    box-shadow: 0 0 0 3px hsla(var(--input-focus-h), var(--input-focus-s), calc(var(--input-focus-l) +40%), 0.8);
+    background:#e3a2657a;
+    color:#fafbfa;
+}
+
+
+#search-select{
+    display:inline-flex;
+    font-size: 16px;
+    width:auto;
+    padding: .25em 1.4em 0.1em 1.2em;
+    border-radius: 4pt;
+    color: #e3a165;
+    background: none;
+    border: #d6d4d0 solid 2px; 
+    box-shadow: inset 0 0 0 #e3a2657a, 0 0 .8em #e3a2657a;
+    
+}
+
+#search-select:focus {
+    outline: none;
+}    
+
+#search-div .button{
+	color: #f29641;
+	background: #fafbfaf6;
+	border-radius: 2em;
+    vertical-align: middle;
+	padding: .8em 4em;
+	letter-spacing: 0.35em;
+	font-size: 0.75em;
+    font-weight: bolder;
+	transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+	margin: 0.4em .8em .8em .8em;
+    box-shadow: inset 0 0 0 #e3a2657a, 0 0 .8em #e3a2657a;
+	border: #f29641 solid 2px;   
+    display: inline-flex;
+}
+
+#search-div .button:hover{
+    color: #fafbfa;
+	background-color:#f296417a;
+	box-shadow: inset 0 0 0 #e3a2657a, 0 0 .8em #e3a2657a;
+    border: #fafbfa solid 2px;   
+}
+
+#results-info{
+    margin: 0 auto;
+    text-align: center;
+    color:#fafbfa;
+}
+
+/*styling for information div*/
+
+.more-info-div{
+    display: flex;
+    background-image: linear-gradient(to right, #af355334, #1b3e5223);
+    color: #d6d4d0;
+}
+
+.more-info-image{
+    border: #8f353585 solid 2px;
+    height: 50vh;
+    margin: 0.5em;
+    width: auto;
+}
+
+#more-info-text {
+    flex-grow: 1;
+    align-self: flex-start;
+    margin: 0em;
+}
+
+#more-info-text h2{
+    font-size: 25pt;
+    width: 85%;
+    margin: 10pt 0pt 2pt 0pt;
+}
+
+#more-info-text h3{
+    font-size: 16pt;
+    width: 85%;
+    margin: 2pt 0pt 2pt 0pt;
+}
+
+#more-info-text h4{
+    font-size: 12pt;
+    font-weight: lighter;
+    width: 85%;
+    margin: 5pt 0pt 2pt 0pt;
+}
+
+#more-info-text p{
+    font-size: 10pt;
+    font-weight: lighter;
+    width: 60%;
+    margin: 25pt 0pt 15pt 0pt;
+}
+
+#mini-grid{
+    display: inline-block;
+}
+
+.mini-cards{
+    border: #8f353585 solid 2px;
+    height: 12vh;
+    margin: 0em 0em 0em 0.1em;
+    width: 12vh;
+    display: inline-block;
+}
+
+.mini-cards img {
+    height:inherit;
+    object-fit: cover;
+    width:12vh; 
+    margin: 0em 0em 0em 0.1em;
+}
+
+.mini-cards-info h5{
+    margin: 0;
+}
