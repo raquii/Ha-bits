@@ -6,6 +6,8 @@ const searchBtn = document.querySelector('#search-form');
 const resultsContainer = document.querySelector('#results-contain');
 const resultsDiv = document.querySelector('#results-div');
 const resultsInfo = document.querySelector('#results-info');
+const endPointTracker = document.querySelector('#endpoint-tracker');
+const moreInfoCont = document.querySelector('#moreContain');
 
 //event listeners for explore buttons
 filmsBtn.addEventListener('click', filmsHandler);
@@ -17,7 +19,8 @@ searchBtn.addEventListener('submit', searchHandler);
 
 //fetch for film results
 function filmsHandler(){
-    resultsInfo.innerText = ''
+    resultsInfo.innerText = '';
+    endPointTracker.innerHTML = 'films/';
     
     fetch('http://localhost:3000/films')
     .then(r=>r.json())
@@ -27,6 +30,7 @@ function filmsHandler(){
 //fetch for director results
 function directorHandler(){
     resultsInfo.innerText = ''
+    endPointTracker.innerHTML = 'directors/';
 
     fetch('http://localhost:3000/directors')
     .then(r=>r.json())
@@ -36,6 +40,7 @@ function directorHandler(){
 //fetch for character results
 function charaHandler(){
     resultsInfo.innerText = ''
+    endPointTracker.innerHTML = 'characters/';
 
     fetch('http://localhost:3000/characters')
     .then(r=>r.json())
@@ -49,12 +54,16 @@ function searchHandler(e){
     const searchInput = document.querySelector('#keyword-input').value;
     if(searchBy === 'keyword'){
         keywordFetch(searchInput);
+        endPointTracker.innerHTML = 'films/';
     }else if(searchBy === 'title'){
         titleFetch(searchInput);
+        endPointTracker.innerHTML = 'films/';
     }else if(searchBy === 'director'){
         directorFetch(searchInput);
+        endPointTracker.innerHTML = 'directors/';
     }else if(searchBy === 'character'){
         characterFetch(searchInput);
+        endPointTracker.innerHTML = 'characters/';
     }
 }
 
@@ -102,14 +111,27 @@ function searchResults(data){
     searchInput.value = '';  
 }
 
-// first removes any children of resultsDiv then loops each element in the data into the addCard function
+// cleans results div and then runs addCard function
 function cardCreator(data){
-    while (resultsDiv.firstChild){
-        resultsDiv.removeChild(resultsDiv.lastChild);
-    }
+    resultsCardClearer();
+    moreInfoClearer();
 
     for(let i=0; i<data.length; i++){
         addCard(data[i]);
+    }
+}
+
+//empties resultsDiv
+function resultsCardClearer(){
+    while (resultsDiv.firstChild){
+        resultsDiv.removeChild(resultsDiv.lastChild);
+    }
+}
+
+//empties moreInfoDiv and removes
+function moreInfoClearer(){
+    while (moreInfoCont.firstChild){
+        moreInfoCont.removeChild(moreInfoCont.lastChild);
     }
 }
 
@@ -150,8 +172,11 @@ function addCard(data){
 
 //handles hidding current results and fetching data when user clicks on cards
 function moreInfoHandler(e){
-    console.log(e.currentTarget.id);
-    // addMoreInfo();
+    const id = e.currentTarget.id
+
+    fetch(`http://localhost:3000/${endPointTracker.innerText}${id}`)
+    .then(res=>res.json())
+    .then(data=>addMoreInfo(data))
 }
 
 //creates more-info cards and appends them to the DOM
@@ -161,7 +186,7 @@ function addMoreInfo(data){
     const moreInfoDiv = document.createElement('div');
     moreInfoDiv.id = data['id'];
     moreInfoDiv.className = 'more-info-card';
-    resultsContainer.appendChild(moreInfoDiv);
+    moreInfoCont.appendChild(moreInfoDiv);
 
     const backBtn = document.createElement('button');
     backBtn.className = 'backBtn';
@@ -172,7 +197,7 @@ function addMoreInfo(data){
 
     const moreInfoImg = document.createElement('img');
     moreInfoImg.src = data['image'];
-    moreInfoImg.className = more-info-image;
+    moreInfoImg.className = 'more-info-image';
     moreInfoDiv.appendChild(moreInfoImg);
 
     const moreTextDiv = document.createElement('div');
@@ -202,16 +227,21 @@ function addMoreInfo(data){
     const infoP = document.createElement('p');
     infoP.id = 'more-info-description';
     infoP.innerText = data['description'];
-    moreTextDiv.appendChild(infoP)
+    moreTextDiv.appendChild(infoP);
 
     const miniCardDiv = document.createElement('div');
     miniCardDiv.id = 'mini-grid';
-    moreTextDiv.appendChild(miniCardDiv)
+    moreTextDiv.appendChild(miniCardDiv);
 
-
+    const miniHeader = document.createElement('h4');
+    miniHeader.className = 'mini-header';
+    miniHeader.innerText = data['people'] ? `CHARACTERS:` : `FILMS:`;
+    miniCardDiv.appendChild(miniHeader);
 
 }
 
+//back button handler
 function backHandler(e){
-    console.log('Going BACK in time...')
+    moreInfoClearer();
+    resultsDiv.style = 'display:';
 }
