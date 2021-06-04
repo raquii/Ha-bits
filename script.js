@@ -3,6 +3,7 @@ const filmsBtn = document.querySelector('#explore-films');
 const directorsBtn = document.querySelector('#explore-directors');
 const charaBtn = document.querySelector('#explore-characters');
 const searchBtn = document.querySelector('#search-form');
+const resultsContainer = document.querySelector('#results-contain');
 const resultsDiv = document.querySelector('#results-div');
 const resultsInfo = document.querySelector('#results-info');
 
@@ -87,13 +88,13 @@ function directorFetch(input){
 
 //search result display function
 function searchResults(data){
-    const navDiv = document.querySelector('#nav-div')
+    const navDiv = document.querySelector('#nav-div');
     const resultsQuantity = data.length;
     const searchInput = document.querySelector('#keyword-input');
 
     if(data.length > 0){
-        resultsInfo.innerText = `Displaying ${resultsQuantity} results for '${searchInput.value}':`
-        cardCreator(data)  
+        resultsInfo.innerText = `Displaying ${resultsQuantity} results for '${searchInput.value}':`;
+        cardCreator(data);
     }else{
         resultsInfo.innerText = `Oh no! Soot Sprites must have carried away all of the results for '${searchInput.value}'. Try again!`
     }
@@ -104,16 +105,18 @@ function searchResults(data){
 // first removes any children of resultsDiv then loops each element in the data into the addCard function
 function cardCreator(data){
     while (resultsDiv.firstChild){
-        resultsDiv.removeChild(resultsDiv.lastChild)
+        resultsDiv.removeChild(resultsDiv.lastChild);
     }
 
     for(let i=0; i<data.length; i++){
-        addCard(data[i])
+        addCard(data[i]);
     }
 }
 
 //creates elements for the results cards and appends them to the dom
 function addCard(data){
+    resultsDiv.style = 'display:'
+
     const resultsCardDiv = document.createElement('div');
     resultsCardDiv.id = data['id'];
     resultsCardDiv.className = 'results-card';
@@ -145,6 +148,70 @@ function addCard(data){
     descriptDiv.appendChild(description)
 }
 
+//handles hidding current results and fetching data when user clicks on cards
 function moreInfoHandler(e){
-    console.log(e.currentTarget.id)
+    console.log(e.currentTarget.id);
+    // addMoreInfo();
+}
+
+//creates more-info cards and appends them to the DOM
+function addMoreInfo(data){
+    resultsDiv.style = 'display:none';
+
+    const moreInfoDiv = document.createElement('div');
+    moreInfoDiv.id = data['id'];
+    moreInfoDiv.className = 'more-info-card';
+    resultsContainer.appendChild(moreInfoDiv);
+
+    const backBtn = document.createElement('button');
+    backBtn.className = 'backBtn';
+    backBtn.type = 'button';
+    backBtn.value = 'back';
+    backBtn.innerText = `<`;
+    backBtn.addEventListener('click', backHandler);
+
+    const moreInfoImg = document.createElement('img');
+    moreInfoImg.src = data['image'];
+    moreInfoImg.className = more-info-image;
+    moreInfoDiv.appendChild(moreInfoImg);
+
+    const moreTextDiv = document.createElement('div');
+    moreTextDiv.id = 'more-info-text';
+    moreInfoDiv.appendChild(moreTextDiv)
+
+    const infoHeader = document.createElement('h2');
+    infoHeader.id = 'more-info-header';
+    infoHeader.innerText = data['title'] ? data['title'] : data['name'];
+    moreTextDiv.appendChild(infoHeader);
+
+    const infoSubHeader = document.createElement('h3');
+    infoSubHeader.className = 'more-info-sub';
+    infoSubHeader.innerText = data['original_title'] ? data['original_title'] : 'THIS IS SUPPOSED TO BE FILM TITLES';
+    moreTextDiv.appendChild(infoSubHeader);
+
+    const infoH4 = document.createElement('h4');
+    infoH4.className = 'more-info-sub';
+    infoH4.innerText = data['director'] ? data['director'] : data['species'];
+    moreTextDiv.appendChild(infoH4);
+
+    const infoH42 = document.createElement('h4');
+    infoH42.className = 'more-info-sub';
+    infoH42.innerText = data['release_date'] ? data['release_date'] : `Eye Color: ${data['eye_color']} Hair Color: ${data['hair_color']}`;
+    moreTextDiv.appendChild(infoH42);
+
+    const infoP = document.createElement('p');
+    infoP.id = 'more-info-description';
+    infoP.innerText = data['description'];
+    moreTextDiv.appendChild(infoP)
+
+    const miniCardDiv = document.createElement('div');
+    miniCardDiv.id = 'mini-grid';
+    moreTextDiv.appendChild(miniCardDiv)
+
+
+
+}
+
+function backHandler(e){
+    console.log('Going BACK in time...')
 }
