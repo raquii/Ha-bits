@@ -22,7 +22,7 @@ function filmsHandler(){
     resultsInfo.innerText = '';
     endPointTracker.innerHTML = 'films/';
     
-    fetch('http://localhost:3000/films')
+    fetch('https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
@@ -32,7 +32,7 @@ function directorHandler(){
     resultsInfo.innerText = ''
     endPointTracker.innerHTML = 'directors/';
 
-    fetch('http://localhost:3000/directors')
+    fetch('https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/directors')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
@@ -42,7 +42,7 @@ function charaHandler(){
     resultsInfo.innerText = ''
     endPointTracker.innerHTML = 'characters/';
 
-    fetch('http://localhost:3000/characters')
+    fetch('https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
@@ -69,28 +69,28 @@ function searchHandler(e){
 
 //fetches results by keywork search
 function keywordFetch(input){
-    fetch(`http://localhost:3000/films?q=${input}`)
+    fetch(`https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films?q=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
 
 //fetches results by Title search
 function titleFetch(input){
-    fetch(`http://localhost:3000/films?title_like=${input}`)
+    fetch(`https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/films?title_like=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
 
 //fetches results by Character search
 function characterFetch(input){
-    fetch(`http://localhost:3000/characters?name_like=${input}`)
+    fetch(`https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/characters?name_like=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
 
 //fetches results by Character search
 function directorFetch(input){
-    fetch(`http://localhost:3000/directors?name_like=${input}`)
+    fetch(`https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/directors?name_like=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
@@ -174,7 +174,7 @@ function addCard(data){
 function moreInfoHandler(e){
     const id = e.currentTarget.id
 
-    fetch(`http://localhost:3000/${endPointTracker.innerText}${id}`)
+    fetch(`https://api.npoint.io/7bb4d3a3bdaf0ad5e73f/${endPointTracker.innerText}${id}`)
     .then(res=>res.json())
     .then(data=>addMoreInfo(data))
 }
