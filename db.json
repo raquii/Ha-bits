@@ -921,8 +921,8 @@
       "age": "Unspecified/Adult",
       "eye_color": "Dark brown",
       "hair_color": "None",
-      "image": "",
-      "description": "",
+      "image": "https://www.anime-planet.com/images/characters/motro-185317.jpg",
+      "description": "Motro is a character from Laputa: Castle in the Sky. He is Dola's husband and works on board the airship Tiger Moth as its engineer. Motro is short and bald with a large, brown mustache. He always wears round, tinted glasses.",
       "films": [
         {
           "title": "Castle in the Sky",
@@ -939,8 +939,8 @@
       "age": "50",
       "eye_color": "Dark brown",
       "hair_color": "Orange",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/6/65/Okami.jpg",
+      "description": "Okami is the wife of Mr. Duffi and mother of Madge in the film Laputa: Castle in the Sky. Like her husband, Okami watches out for and takes care of Pazu, as well as Sheeta when she befriends Pazu. She helps protect the children from the air pirates when they pursue Sheeta.",
       "films": [
         {
           "title": "Castle in the Sky",
@@ -952,13 +952,13 @@
     },
     {
       "id": "11",
-      "name": "Ashitaka",
+      "name": "Prince Ashitaka",
       "gender": "Male",
-      "age": "late teens",
+      "age": "17 years old",
       "eye_color": "Brown",
       "hair_color": "Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/4/49/Ashitaka.jpg",
+      "description": "Prince Ashitaka is the protagonist of Princess Mononoke and prince of Emishi Village. Ashitaka is very stern and determined to achieve his goals, not allowing his setbacks to stop him from curing his curse and saving his village. He is also extremely curious in nature, wanting to discover who San truly is after witnessing her sucking venom out of one of the wolves. Despite his hard outer shell, Ashitaka is also very kind and only wishes for the best outcomes for both sides, not wishing for either side to shed blood in destructive wars, and wants peace between the forces of nature and humanity.",
       "films": [
         {
           "title": "Princess Mononoke",
@@ -975,8 +975,8 @@
       "age": "17",
       "eye_color": "Brown",
       "hair_color": "Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/3/3f/San.jpg",
+      "description": "San, otherwise known as Princess Mononoke or the 'Wolf Girl,' is the main character, along with Ashitaka, in Princess Mononoke. She acts, behaves, and resembles a wolf due to the fact that she was raised by wolves themselves. San is the Princess of the Wolf Gods. When San was a baby, the wolf goddess Moro attacked her parents, who were found damaging the forest. Her parents threw San to her feet and ran away. Moro raised San as her own daughter, and in turn San treats Moro as her mother and Moro's two natural pups as her siblings.",
       "films": [
         {
           "title": "Princess Mononoke",
@@ -988,13 +988,13 @@
     },
     {
       "id": "13",
-      "name": "Eboshi",
+      "name": "Lady Eboshi",
       "gender": "Female",
       "age": "Unspecified/Adult",
       "eye_color": "Hazel",
       "hair_color": "Black",
-      "image": "",
-      "description": "",
+      "image": "https://filmschoolrejects.com/wp-content/uploads/2019/10/Eboshi-1280x720.jpg",
+      "description": "Eboshi is the main antagonist of Princess Mononoke. Eboshi is a tough and arrogant woman who wants to positively influence the world. As the leader of Iron Town, the townspeople love her, giving her the highest influence as she was the one who freed them from their oppressive environments by bringing them all to Irontown. She has the girls work the forge and the lepers make guns for her, making her a grey character.",
       "films": [
         {
           "title": "Princess Mononoke",
@@ -1011,8 +1011,8 @@
       "age": "Middle age",
       "eye_color": "Black",
       "hair_color": "Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/7/72/Jigo.jpg",
+      "description": "Jigo is a character from Princess Mononoke. He first appears as Ashitaka's ally, but is later revealed to be the secondary antagonist, wanting to present the Forest Spirit's severed head to the Emperor Mikado so that he could be paid handsomely. It is said the head has the power of eternal youth. He is a member of the mysterious organization Shishoren (eng. The Alliance of Lords). Jigo pretends to be a knowledgeable monk and initially helped Ashitaka by giving him information about the Forest Spirit while being pessimistic about the state of the world",
       "films": [
         {
           "title": "Princess Mononoke",
@@ -1029,8 +1029,8 @@
       "age": "Adult",
       "eye_color": "Black",
       "hair_color": "Brown",
-      "image": "",
-      "description": "",
+      "image": "https://www.anime-planet.com/images/characters/koroku-2705.jpg",
+      "description": "Kohroku is the husband of Toki in Princess Mononoke. Ashitaka has to rescue him after he, Lady Eboshi and the rest of the working men ran into San and the wolves, while bringing their goods back to Irontown. He was injured and thrown into a river, where Ashitaka found him and brought him back to the safety of Irontown.",
       "films": [
         {
           "title": "Princess Mononoke",
@@ -1047,8 +1047,8 @@
       "age": "Adult",
       "eye_color": "Grey",
       "hair_color": "Bald, but beard is Brown",
-      "image": "",
-      "description": "",
+      "image": "https://ami.animecharactersdatabase.com/uploads/chars/5688-2082147945.jpg",
+      "description": "Gonza is a character from Princess Mononoke. He commands the soldiers in Irontown. He is a loyal henchman to Eboshi and is quick to draw his sword to defend her honor. Beside Eboshi, he distrusts all people, because many people like Asano try to occupy Irontown.",
       "films": [
         {
           "title": "Princess Mononoke",
@@ -1060,13 +1060,13 @@
     },
     {
       "id": "17",
-      "name": "Hii-sama",
+      "name": "Hī-sama",
       "gender": "Female",
       "age": "Over 50",
       "eye_color": "Brown",
       "hair_color": "White",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/8/83/Hii-sama.jpg",
+      "description": "Hī-sama is the wise woman in Princess Mononoke. She is first seen after Nago's attack. She carries hot water in a jar, which Kaya pours on Ashitaka's arm. Then she bows to Nago and she pleads to him not to pour his anger on the village.",
       "films": [
         {
           "title": "Princess Mononoke",
@@ -1083,8 +1083,8 @@
       "gender": "Male",
       "eye_color": "Grey",
       "hair_color": "Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/e/ef/Yakul.jpg",
+      "description": "Yakul (also known Yakkuru in Japanese) is Ashitaka's loyal red elk in Princess Mononoke. He looks very similar to the Forest Spirit, but doesn't have a human face or as many horns.",
       "films": [
         {
           "title": "Princess Mononoke",
@@ -1096,20 +1096,20 @@
     },
     {
       "id": "19",
-      "name": "Shishigami",
+      "name": "Shishigami (Forest Spirit)",
       "age": "400",
       "gender": "Male",
       "eye_color": "Red",
       "hair_color": "Light Orange",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b7/Forest_Spirit.jpg",
+      "description": "Forest Spirit, also called Shishigami (シシガミ) and Night-Walker (デイダラボッチ, Deidarabotchi), is a supporting character in Princess Mononoke. It is known as a god of life and death. The Forest Spirit looks like a deer, but with more antlers and a human-like face. It can transform into a gigantic, translucent humanoid during the night called the Night-Walker.",
       "films": [
         {
           "title": "Princess Mononoke",
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "Deer",
+      "species": "Deity",
       "url": "http://localhost:3000/characters/19"
     },
     {
@@ -1119,15 +1119,15 @@
       "age": "300",
       "eye_color": "Brown",
       "hair_color": "White",
-      "image": "",
-      "description": "",
+      "image": "https://i.pinimg.com/originals/90/39/a7/9039a7d19889e5b63053ca42d8d494d8.jpg",
+      "description": "Moro is supporting character of Princess Mononoke film. She is the three-hundred years old god of the wolves who posesses divine power and intelligence, as well as being capable of understanding and speaking human languages. Moro is very wise and is keen to the tricks of mankind. She is a stoic and strong character who knows the evil intentions of humans. She is the leader of the wolf tribe and a loving mother. Moro comes across as threatening towards Ashitaka, but understands his deep affection for San.",
       "films": [
         {
           "title": "Princess Mononoke",
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "God",
+      "species": "Deity",
       "url": "http://localhost:3000/characters/20"
     },
     {
@@ -1137,8 +1137,8 @@
       "age": "NA",
       "eye_color": "Black",
       "hair_color": "Black",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b4/Jiji.jpg",
+      "description": "Jiji is Kiki's pet cat and her closest companion in the film Kiki's Delivery Service.",
       "films": [
         {
           "title": "Kiki's Delivery Service",
@@ -1155,8 +1155,8 @@
       "age": "11",
       "eye_color": "Dark Brown/Black",
       "hair_color": "Dark Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/f/f2/Satsuki_Kusakabe.jpg",
+      "description": "Satsuki Kusakabe (草壁 サツキ, Kusakabe Satsuki), also known as Satsuko, is the second protagonist of My Neighbor Totoro. She is the older sister of Mei. Satsuki likes to think of herself as grown-up and caring for her sister. She is very lively, although not quite as lively as Mei. Satsuki looks after Mei to the best of her ability despite being upset about their ill mother.",
       "films": [
         {
           "title": "My Neighbor Totoro",
@@ -1173,8 +1173,8 @@
       "age": "4",
       "eye_color": "Brown",
       "hair_color": "Light Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b5/God_Jul_Mei_%C3%B6nskar_fr%C3%A5n_Tomten.jpg",
+      "description": "Mei Kusakabe (草壁 メイ, Kusakabe Mei) is the four-year-old protagonist little sister of Satsuki in My Neighbor Totoro and Mei and the Kittenbus. She is the daughter of Tatsuo and Yasuko Kusakabe. Stubborn yet cheerful, she is like her older sister in that she is persistent and not timid. But with her initial shyness and tendency to few words, she seems to be even more observant than Satsuki.",
       "films": [
         {
           "title": "My Neighbor Totoro",
@@ -1191,8 +1191,8 @@
       "age": "37",
       "eye_color": "Brown",
       "hair_color": "Dark Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/d/d6/Tatsuo_Kusakabe.jpg",
+      "description": "Tatsuo Kusakabe (草壁 タツオ Kusakabe Tatsuo) is the husband of Yasuko Kusakabe and the father of Satsuki and Mei Kusakabe who works at a college as a professor of Archaeology. Tatsuo is a very good father who does his best to keep Mei Kusakabe and Satsuki Kusakabe happy when Yasuko Kusakabe is in the hospital. He believes in the imagination of his daughters and understands their belief of Totoro. He is kind and patient.",
       "films": [
         {
           "title": "My Neighbor Totoro",
@@ -1209,8 +1209,8 @@
       "age": "Adult",
       "eye_color": "Brown",
       "hair_color": "Dark Brown",
-      "image": "",
-      "description": "",
+      "image": "https://www.anime-planet.com/images/characters/yasuko-kusakabe-2143.jpg",
+      "description": "Yasuko Kusakabe is a supporting character in My Neighbor Totoro. She is the mother of Satsuki and Mei Kusakabe, and the wife of Tatsuo Kusakabe. Presumably, she suffers from Tuberculosis; her sickness being the reason why she and her family moved to the rural country side. She was admitted to the local hospital which offered the best care for the illness, and the family decided it would be best for her to recuperate in a more fresh and sunny environment.",
       "films": [
         {
           "title": "My Neighbor Totoro",
@@ -1227,8 +1227,8 @@
       "age": "Elder",
       "eye_color": "Black",
       "hair_color": "Grey",
-      "image": "",
-      "description": "",
+      "image": "https://www.anime-planet.com/images/characters/granny-my-neighbor-totoro-3678.jpg",
+      "description": "Granny is Kanta's grandmother in the film My Neighbor Totoro. Granny is a kind elderly woman, who cares for every one of her neighbors. Mei is hard to deal with, because she is stubborn. Despite this, Granny tries to please her and even bring Mei to Satsuki's School House.",
       "films": [
         {
           "title": "My Neighbor Totoro",
@@ -1240,13 +1240,13 @@
     },
     {
       "id": "27",
-      "name": "Kanta Ogaki",
+      "name": "Kanta Ōgaki",
       "gender": "Male",
       "age": "11",
       "eye_color": "Brown",
       "hair_color": "Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c3/Kanta.jpg",
+      "description": "Kanta Ōgaki is a supporting character in My Neighbor Totoro. Kanta first appears when the Kusakabe family are making their way to their new house. He shys away very quickly upon seeing Mei and Satsuki. Kanta then brings a basket to Granny who is helping the Kusakabe's move in, where  he meets Satsuki properly and forcefully hands her the basket and runs away, commenting to Satsuki that her house is haunted but Granny catches him",
       "films": [
         {
           "title": "My Neighbor Totoro",
