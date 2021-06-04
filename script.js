@@ -194,6 +194,7 @@ function addMoreInfo(data){
     backBtn.value = 'back';
     backBtn.innerText = `<`;
     backBtn.addEventListener('click', backHandler);
+    moreInfoDiv.appendChild(backBtn);
 
     const moreInfoImg = document.createElement('img');
     moreInfoImg.src = data['image'];
