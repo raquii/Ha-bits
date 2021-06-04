@@ -6,7 +6,6 @@ const searchBtn = document.querySelector('#search-form');
 const resultsContainer = document.querySelector('#results-contain');
 const resultsDiv = document.querySelector('#results-div');
 const resultsInfo = document.querySelector('#results-info');
-const endPointTracker = document.querySelector('#endpoint-tracker');
 const moreInfoCont = document.querySelector('#moreContain');
 
 //event listeners for explore buttons
@@ -20,7 +19,7 @@ searchBtn.addEventListener('submit', searchHandler);
 //fetch for film results
 function filmsHandler(){
     resultsInfo.innerText = '';
-    endPointTracker.innerHTML = 'films/';
+    
     
     fetch('http://localhost:3000/films')
     .then(r=>r.json())
@@ -30,7 +29,7 @@ function filmsHandler(){
 //fetch for director results
 function directorHandler(){
     resultsInfo.innerText = ''
-    endPointTracker.innerHTML = 'directors/';
+ 
 
     fetch('http://localhost:3000/directors')
     .then(r=>r.json())
@@ -40,7 +39,7 @@ function directorHandler(){
 //fetch for character results
 function charaHandler(){
     resultsInfo.innerText = ''
-    endPointTracker.innerHTML = 'characters/';
+
 
     fetch('http://localhost:3000/characters')
     .then(r=>r.json())
@@ -54,16 +53,16 @@ function searchHandler(e){
     const searchInput = document.querySelector('#keyword-input').value;
     if(searchBy === 'keyword'){
         keywordFetch(searchInput);
-        endPointTracker.innerHTML = 'films/';
+
     }else if(searchBy === 'title'){
         titleFetch(searchInput);
-        endPointTracker.innerHTML = 'films/';
+       
     }else if(searchBy === 'director'){
         directorFetch(searchInput);
-        endPointTracker.innerHTML = 'directors/';
+
     }else if(searchBy === 'character'){
         characterFetch(searchInput);
-        endPointTracker.innerHTML = 'characters/';
+
     }
 }
 
@@ -111,16 +110,6 @@ function searchResults(data){
     searchInput.value = '';  
 }
 
-// cleans results div and then runs addCard function
-function cardCreator(data){
-    resultsCardClearer();
-    moreInfoClearer();
-
-    for(let i=0; i<data.length; i++){
-        addCard(data[i]);
-    }
-}
-
 //empties resultsDiv
 function resultsCardClearer(){
     while (resultsDiv.firstChild){
@@ -135,12 +124,22 @@ function moreInfoClearer(){
     }
 }
 
+// cleans results div and then runs addCard function
+function cardCreator(data){
+    resultsCardClearer();
+    moreInfoClearer();
+
+    for(let i=0; i<data.length; i++){
+        addCard(data[i]);
+    }
+}
+
 //creates elements for the results cards and appends them to the dom
 function addCard(data){
     resultsDiv.style = 'display:'
 
     const resultsCardDiv = document.createElement('div');
-    resultsCardDiv.id = data['id'];
+    resultsCardDiv.id = data['url'].slice(22);
     resultsCardDiv.className = 'results-card';
     resultsDiv.appendChild(resultsCardDiv);
     
@@ -173,9 +172,11 @@ function addCard(data){
 //handles hidding current results and fetching data when user clicks on cards
 function moreInfoHandler(e){
     const id = e.currentTarget.id
+    console.log(id);
+    
     moreInfoClearer();
 
-    fetch(`http://localhost:3000/${endPointTracker.innerText}${id}`)
+    fetch(`http://localhost:3000/${id}`)
     .then(res=>res.json())
     .then(data=>addMoreInfo(data))
 }
@@ -264,16 +265,16 @@ function addMoreInfo(data){
 
 //fetches mini cards data
 function miniCardFetcher(data){
-    console.log(`this is mini card fetchers ${data}`)
+    
     if(data['people']){
-        endPointTracker.innerText = 'characters/';
+
         for(let i=0;i<data['people'].length; i++){
             fetch(data['people'][i])
             .then(res=>res.json())
             .then(data=>miniCardCreator(data))
         }
     }else{
-        endPointTracker.innerText = 'films/';
+
         for(let i=0;i<data['films'].length; i++){
             fetch(data['films'][i]['url'])
             .then(res=>res.json())
@@ -284,7 +285,7 @@ function miniCardFetcher(data){
 
 //creates mini cards for more info card
 function miniCardCreator(data){
-    console.log(`this is mini card creators ${data}`);
+    
     const miniCardDiv = document.querySelector('#mini-grid')
 
     const miniCard = document.createElement('div');
@@ -306,5 +307,6 @@ function miniCardCreator(data){
 //back button handler
 function backHandler(){
     moreInfoClearer();
+
     resultsDiv.style = 'display:';
 }

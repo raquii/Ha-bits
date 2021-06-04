@@ -28,7 +28,7 @@
         "http://localhost:3000/characters/42"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -54,7 +54,7 @@
         "http://localhost:3000/characters/"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -89,9 +89,9 @@
         "http://localhost:3000/characters/27"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-        "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
-        "https://ghibliapi.herokuapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5"
+        "Human",
+        "Cat",
+        "Totoro"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -117,7 +117,7 @@
         "http://localhost:3000/characters/21"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -143,7 +143,7 @@
         "http://localhost:3000/characters/"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -169,7 +169,7 @@
         "http://localhost:3000/characters/40"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -195,7 +195,7 @@
         "http://localhost:3000/characters/"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -222,7 +222,7 @@
         "http://localhost:3000/characters/37"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -257,9 +257,9 @@
         "http://localhost:3000/characters/17"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
-        "https://ghibliapi.herokuapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e",
-        "https://ghibliapi.herokuapp.com/species/f25fa661-3073-414d-968a-ab062e3065f7"
+        "Human",
+        "Deer",
+        "God"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -285,7 +285,7 @@
         "http://localhost:3000/characters/"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -308,10 +308,10 @@
       "running_time": "124",
       "rt_score": "97",
       "people": [
-        "http://localhost:3000/characters/"
+        "http://localhost:3000/characters/39"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -343,7 +343,7 @@
         
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -369,7 +369,7 @@
         "http://localhost:3000/characters/"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -395,7 +395,7 @@
         "http://localhost:3000/characters/"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -421,7 +421,7 @@
         "http://localhost:3000/characters/41"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -447,7 +447,7 @@
         "http://localhost:3000/characters/32"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -473,7 +473,7 @@
         "http://localhost:3000/characters/"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -499,7 +499,7 @@
         "http://localhost:3000/characters/"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -525,7 +525,7 @@
         "http://localhost:3000/characters/"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -551,7 +551,7 @@
         "http://localhost:3000/characters/"
       ],
       "species": [
-        "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2"
+        "Human"
       ],
       "locations": [
         "https://ghibliapi.herokuapp.com/locations/"
@@ -760,7 +760,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/0"
     },
     {
@@ -778,7 +778,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/1"
     },
     {
@@ -796,7 +796,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/2"
     },
     {
@@ -814,7 +814,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/3"
     },
     {
@@ -832,7 +832,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/4"
     },
     {
@@ -850,7 +850,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/5"
     },
     {
@@ -868,7 +868,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/6"
     },
     {
@@ -886,7 +886,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/7"
     },
     {
@@ -904,7 +904,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/8"
     },
     {
@@ -922,7 +922,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/9"
     },
     {
@@ -940,7 +940,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/10"
     },
     {
@@ -958,7 +958,7 @@
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/11"
     },
     {
@@ -976,7 +976,7 @@
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/12"
     },
     {
@@ -994,7 +994,7 @@
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/13"
     },
     {
@@ -1012,7 +1012,7 @@
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/14"
     },
     {
@@ -1030,7 +1030,7 @@
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/15"
     },
     {
@@ -1048,7 +1048,7 @@
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/16"
     },
     {
@@ -1066,7 +1066,7 @@
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/17"
     },
     {
@@ -1084,7 +1084,7 @@
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e",
+      "species": "Deer",
       "url": "http://localhost:3000/characters/18"
     },
     {
@@ -1102,7 +1102,7 @@
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e",
+      "species": "Deer",
       "url": "http://localhost:3000/characters/19"
     },
     {
@@ -1120,7 +1120,7 @@
           "url": "http://localhost:3000/films/8"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/f25fa661-3073-414d-968a-ab062e3065f7",
+      "species": "God",
       "url": "http://localhost:3000/characters/20"
     },
     {
@@ -1138,7 +1138,7 @@
           "url": "http://localhost:3000/films/3"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
+      "species": "Cat",
       "url": "http://localhost:3000/characters/21"
     },
     {
@@ -1156,7 +1156,7 @@
           "url": "http://localhost:3000/films/2"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/22"
     },
     {
@@ -1174,7 +1174,7 @@
           "url": "http://localhost:3000/films/2"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/23"
     },
     {
@@ -1192,7 +1192,7 @@
           "url": "http://localhost:3000/films/2"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/24"
     },
     {
@@ -1210,7 +1210,7 @@
           "url": "http://localhost:3000/films/2"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/25"
     },
     {
@@ -1228,7 +1228,7 @@
           "url": "http://localhost:3000/films/2"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/26"
     },
     {
@@ -1246,7 +1246,7 @@
           "url": "http://localhost:3000/films/2"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/27"
     },
     {
@@ -1256,15 +1256,15 @@
       "age": "",
       "eye_color": "Grey",
       "hair_color": "Grey",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/disney/images/5/53/Totoro.jpg",
+      "description": "Totoro is the title tetartagonist in Studio Ghibli's film My Neighbor Totoro, as well as its sequel, Mei and the Kittenbus. He is the mascot of Studio Ghibli.",
       "films": [
         {
           "title": "My Neighbor Totoro",
           "url": "http://localhost:3000/films/2"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5",
+      "species": "Totoro",
       "url": "http://localhost:3000/characters/28"
     },
     {
@@ -1274,15 +1274,15 @@
       "age": "",
       "eye_color": "Black",
       "hair_color": "Blue",
-      "image": "",
-      "description": "",
+      "image": "https://img1.ak.crunchyroll.com/i/spire3/c6554614f12dcd4c62756a955c0c11af1559401695_full.jpg",
+      "description": "Chu Totoro is a blue, tiny Totoro. He is chased by Mei with his brother, Chibi, to Totoro's nest in the film My Neighbor Totoro.",
       "films": [
         {
           "title": "My Neighbor Totoro",
           "url": "http://localhost:3000/films/2"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5",
+      "species": "Totoro",
       "url": "http://localhost:3000/characters/29"
     },
     {
@@ -1292,15 +1292,15 @@
       "age": "",
       "eye_color": "Black",
       "hair_color": "White",
-      "image": "",
-      "description": "",
+      "image": "https://ghiblistudio1.files.wordpress.com/2020/08/d54f63fd0fd12bf2f37aa7c9e7be63ac.jpg",
+      "description": "Chibi Totoro is a white, tiny Totoro. He is chased by Mei with his brother, Chu, to Totoro's nest in the film My Neighbor Totoro.",
       "films": [
         {
           "title": "My Neighbor Totoro",
           "url": "http://localhost:3000/films/2"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5",
+      "species": "Totoro",
       "url": "http://localhost:3000/characters/30"
     },
     {
@@ -1310,15 +1310,15 @@
       "age": "NA",
       "eye_color": "Yellow",
       "hair_color": "Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/myneighbortotoro/images/3/30/Catbus.jpg",
+      "description": "The Catbus is a transporting animal bus-looking character in My Neighbor Totoro. In the film, the Catbus appears on the road of the forest, when Mei, Satsuki and Totoro waiting for Tatsuo Kusakabe's bus to arrive. After the bus speeds a bit too fast and then backs up, it meows with its glowing carlight eyes and smiles like the Cheshire Cat.",
       "films": [
         {
           "title": "My Neighbor Totoro",
           "url": "http://localhost:3000/films/2"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
+      "species": "Cat",
       "url": "http://localhost:3000/characters/31"
     },
     {
@@ -1328,26 +1328,26 @@
       "age": "NA",
       "eye_color": "White",
       "hair_color": "Beige",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/5/5a/Niya.jpg",
+      "description": "Niya is the cat pet of Sho in The Secret World of Arrietty. Niya is a large beige cat with dark gray patches and a pale muzzle.",
       "films": [
         {
           "title": "The Secret World of Arrietty",
           "url": "http://localhost:3000/films/15"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
+      "species": "Cat",
       "url": "http://localhost:3000/characters/32"
     },
     {
       "id": "33",
-      "name": "Renaldo Moon aka Moon aka Muta",
+      "name": "Muta",
       "gender": "Male",
       "age": "NA",
       "eye_color": "White",
       "hair_color": "Beige",
-      "image": "",
-      "description": "",
+      "image": "https://www.anime-planet.com/images/characters/muta-2248.jpg",
+      "description": "Muta is a supporting character in The Cat Returns. Brash and grumpy, Muta is known for his unchecked sense of sarcasm and condescension towards people and his other companions, and for his huge appetite. This accounted for his chagrined relationship with Toto, whom he has a mutual dislike with, though they wouldn't hesitate to team up and work together when the need arises.",
       "films": [
         {
           "title": "The Cat Returns",
@@ -1358,7 +1358,7 @@
           "url": "http://localhost:3000/films/7"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
+      "species": "Cat",
       "url": "http://localhost:3000/characters/33"
     },
     {
@@ -1368,15 +1368,15 @@
       "age": "87",
       "eye_color": "Emerald",
       "hair_color": "Grey",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/3/34/The_Cat_King.jpg",
+      "description": "The Cat King is the main antagonist of The Cat Returns. He is a ruthless and evil king. The Cat King kidnaps Haru Yoshioka and brings her to the Cat Kingdom, where she is transformed into a cat. When Prince Lune informs him that he already had a bride called Yuki, the King then tried to marry Haru himself, which she refused to do.",
       "films": [
         {
           "title": "The Cat Returns",
           "url": "http://localhost:3000/films/11"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
+      "species": "Cat",
       "url": "http://localhost:3000/characters/34"
     },
     {
@@ -1386,33 +1386,33 @@
       "age": "NA",
       "eye_color": "Blue",
       "hair_color": "White",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/e/eb/New_queen%2C_Yuki.JPG",
+      "description": "Yuki is a character in The Cat Returns. She is friends with Haru Yoshioka. Yuki first appeared as a stray kitten in a flashback, where she was seen being given fish crackers by Haru. In the present day, having noticed that something isn't right, Yuki, in a loud overarching voice, instructed Haru to seek the Cat Business Office, where she meets Muta, a large white cat Yuki told her to seek for directions, who leads her there to meet Baron Humbert von Gikkingen.",
       "films": [
         {
           "title": "The Cat Returns",
           "url": "http://localhost:3000/films/11"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
+      "species": "Cat",
       "url": "http://localhost:3000/characters/35"
     },
     {
       "id": "36",
-      "name": "Haru",
+      "name": "Haru Yoshioka",
       "gender": "Female",
       "age": "13",
       "eye_color": "Brown",
       "hair_color": "Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/2/27/Haru_Yoshioka.jpg",
+      "description": "Haru Yoshioka is the main protagonist of The Cat Returns. She is a messy and awkward girl who struggles to connect with her peers, but her adventures with Yuki and The Baron lead to her finding a new confidence in herself.",
       "films": [
         {
           "title": "The Cat Returns",
           "url": "http://localhost:3000/films/11"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
+      "species": "Cat",
       "url": "http://localhost:3000/characters/36"
     },
     {
@@ -1422,8 +1422,8 @@
       "age": "NA",
       "eye_color": "Green",
       "hair_color": "Yellow",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/4/4f/Humbert_von_Gikkingen.jpg",
+      "description": "Also known simply as The Baron, Baron Humbert von Gikkingen is a (living) statue of an anthropomorphic cat who is fully dressed (including a top hat and shoes). At night, he comes to life. He belongs to the owner of an antique shop named Shiro Nishi.",
       "films": [
         {
           "title": "Whisper of the Heart",
@@ -1434,7 +1434,7 @@
           "url": "http://localhost:3000/films/11"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
+      "species": "Cat",
       "url": "http://localhost:3000/characters/37"
     },
     {
@@ -1444,51 +1444,51 @@
       "age": "NA",
       "eye_color": "Blue",
       "hair_color": "Grey",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c4/Natori.jpg",
+      "description": "Natori is an advisor to the Cat King in The Cat Returns.",
       "films": [
         {
           "title": "The Cat Returns",
           "url": "http://localhost:3000/films/11"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3",
+      "species": "Cat",
       "url": "http://localhost:3000/characters/38"
     },
     {
       "id": "39",
-      "name": "Colonel Muska",
-      "gender": "Male",
-      "age": "33",
-      "eye_color": "Grey",
+      "name": "Chihiro Ogino",
+      "gender": "Female",
+      "age": "10",
+      "eye_color": "Brown",
       "hair_color": "Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/8/8e/Chihiro_Ogino.jpg",
+      "description": "Chihiro is the 10-year old protagonist of Spirited Away. She is a ten-year-old girl who has brown hair, brown eyes, and rosy cheeks. She is very petite and has a childish appearance, and a pudgy face. Her attire includes a white medium-sleeved T-shirt with bright green stripes, bright red shorts, white socks and sunshine yellow sneakers. Chihiro is in the process of moving to a new town when her family stumbles upon the entrance to the spirit world.",
       "films": [
         {
-          "title": "Castle in the Sky",
-          "url": "http://localhost:3000/films/0"
+          "title": "Spirited Away",
+          "url": "http://localhost:3000/films/10"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/39"
     },
     {
       "id": "40",
-      "name": "Porco Rosso",
+      "name": "Marco Pagot",
       "gender": "Male",
       "age": "47",
       "eye_color": "Black",
       "hair_color": "Brown",
-      "image": "",
-      "description": "",
+      "image": "https://static.wikia.nocookie.net/non-aliencreatures/images/7/79/PorcoRosso.jpg",
+      "description": "The protagonist of Porco Rosso, a man in the form of a humanoid pig with a mustache. According to the film's promotional booklet, Porco refused to return to the army and cast a spell on himself. The name 'Porco Rosso' means 'Red Pig' in Italian. He was born around 1892 - 1893 and is roughly 36 years old. He has been flying since he was 17 years old, and was promoted to captain after joining the Italian Air Force where he was active as an ace pilot during World War I. He retired and began working as a bounty hunter. He pilots a red Savoia S.21 prototype combat flight boat. He is known in the Adriatic for helping a downed enemy pilot who was caught in a stormy sea, and is a popular among women as a showboat.",
       "films": [
         {
           "title": "Porco Rosso",
           "url": "http://localhost:3000/films/5"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/40"
     },
     {
@@ -1498,15 +1498,15 @@
       "age": "5",
       "eye_color": "Brown",
       "hair_color": "Brown",
-      "image": "",
-      "description": "",
+      "image": "https://i.pinimg.com/originals/54/79/df/5479df1e98a0e80c70d6a94e673720d2.jpg",
+      "description": "Sosuke is intelligent, smart, loyal, cute and heroic. He is willing to protect his friends (including Ponyo, starting from when she washes up on the shore near the house, stuck in a glass jar), even if doing so gets him in trouble with his mother or Ponyo's father (whom they hate). He is interested in the sea, especially since his father, Koichi, is the captain of a ship.",
       "films": [
         {
           "title": "Ponyo",
           "url": "http://localhost:3000/films/14"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/41"
     },
     {
@@ -1524,7 +1524,7 @@
           "url": "http://localhost:3000/films/0"
         }
       ],
-      "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+      "species": "Human",
       "url": "http://localhost:3000/characters/42"
     }
   ]
