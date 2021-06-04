@@ -633,7 +633,8 @@
           "title": "The Wind Rises",
           "url": "http://localhost:3000/films/17"
         }
-      ]
+      ],
+      "url": "http://localhost:3000/directors/0"
     },
     {
       "id": "1",
@@ -663,7 +664,8 @@
           "title": "The Tale of the Princess Kaguya",
           "url": "http://localhost:3000/films/18"
         }
-      ]
+      ],
+      "url": "http://localhost:3000/directors/1"
     },
     {
       "id": "2",
@@ -677,7 +679,8 @@
           "title": "Whisper of the Heart",
           "url": "http://localhost:3000/films/7"
         }
-      ]
+      ],
+      "url": "http://localhost:3000/directors/2"
     },
     {
       "id": "3",
@@ -691,7 +694,8 @@
           "title": "The Cat Returns",
           "url": "http://localhost:3000/films/11"
         }
-      ]
+      ],
+      "url": "http://localhost:3000/directors/3"
     },
     {
       "id": "4",
@@ -709,7 +713,8 @@
           "title": "From Up on Poppy Hill",
           "url": "http://localhost:3000/films/16"
         }
-      ]
+      ],
+      "url": "http://localhost:3000/directors/4"
     },
     {
       "id": "5",
@@ -727,7 +732,8 @@
           "title": "When Marnie Was There",
           "url": "http://localhost:3000/films/19"
         }
-      ]
+      ],
+      "url": "http://localhost:3000/directors/5"
     },
     {
       "id": "6",
@@ -741,7 +747,8 @@
           "title": "The Red Turtle",
           "url": "http://localhost:3000/films/20"
         }
-      ]
+      ],
+      "url": "http://localhost:3000/directors/6"
     }
   ],
   "characters": [
