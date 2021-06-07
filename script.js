@@ -8,6 +8,11 @@ const resultsDiv = document.querySelector('#results-div');
 const resultsInfo = document.querySelector('#results-info');
 const moreInfoCont = document.querySelector('#moreContain');
 
+const favsListBtn = document.querySelector('#favorites');
+const watchlistBtn =document.querySelector('#watchlist');
+let favsList = [];
+let watchlist = [];
+
 //event listeners for explore buttons
 filmsBtn.addEventListener('click', filmsHandler);
 directorsBtn.addEventListener('click', directorHandler);
@@ -15,6 +20,10 @@ charaBtn.addEventListener('click', charaHandler);
 
 //event listener for submit button on search
 searchBtn.addEventListener('submit', searchHandler);
+
+//event listeners for view list buttons
+favsListBtn.addEventListener('click', showList);
+watchlistBtn.addEventListener('click', showList);
 
 //fetch for film results
 function filmsHandler(){
@@ -64,6 +73,45 @@ function searchHandler(e){
         characterFetch(searchInput);
 
     }
+}
+
+//populates users lists
+function showList(e){
+    resultsCardClearer();
+    moreInfoClearer();
+
+    if(e.currentTarget.value === 'favorites'){
+        if(favsList.length>0){
+            console.log('why?')
+            listFetch(favsList)
+        }else{
+            const alert = document.createElement('h2');
+            alert.innerText = "Oops! Explore films to create your favorites list, then come back here!"
+            alert.className = 'alert'
+            resultsDiv.appendChild(alert);
+        }
+    }else if(e.currentTarget.value === 'watchlist'){
+        if(watchlist.length>0){
+            listFetch(watchlist)
+        }else{
+            const alert = document.createElement('h2');
+            alert.innerText = "Oops! Explore films to create your watchlist, then come back here!"
+            alert.className = 'alert'
+            resultsDiv.appendChild(alert);
+        }
+    }
+}
+
+//fetchs films for user list
+function listFetch(array){
+    resultsCardClearer();
+    moreInfoClearer();
+
+    for(let i=0; i<array.length; i++){
+        fetch(`https://kikis-ghibli-app.herokuapp.com/${array[i]}`)
+        .then(res=>res.json())
+        .then(addCard)
+    } 
 }
 
 //fetches results by keywork search
@@ -178,7 +226,11 @@ function addCard(data){
         heartBtn.className = 'interactiveBtn';
         heartBtn.classList.add('heartBtn');
         heartBtn.type = 'button';
-        heartBtn.innerHTML = `<span class="far fa-heart"></span>`;
+        if(!favsList.includes(resultsCardDiv.id)){
+            heartBtn.innerHTML = `<span class="far fa-heart"></span>`;
+        }else{
+            heartBtn.innerHTML = `<span class="fas fa-heart"></span>`;
+        }
         heartBtn.addEventListener('click', interBtnHandler);
         interactiveDiv.appendChild(heartBtn);
 
@@ -187,14 +239,15 @@ function addCard(data){
         starBtn.className = 'interactiveBtn';
         starBtn.classList.add('starBtn');
         starBtn.type = 'button';
-        starBtn.innerHTML = `<span class="far fa-star"></span>`;
+        if(!watchlist.includes(resultsCardDiv.id)){
+            starBtn.innerHTML = `<span class="far fa-star"></span>`;
+        }else{
+            starBtn.innerHTML = `<span class="fas fa-star"></span>`;
+        }
         starBtn.addEventListener('click', interBtnHandler);
         interactiveDiv.appendChild(starBtn);
     }
 }
-
-let favsList = [];
-let watchlist = [];
 
 //interactive button handler
 function interBtnHandler(e){
@@ -216,9 +269,9 @@ function addToList(e){
     let icon = e.currentTarget.lastChild;
     let film = e.currentTarget.parentNode.parentNode.id;
 
-    if(icon.className.includes('fa-star')){
+    if(icon.className.includes('fa-star') && !watchlist.includes(film)){
         watchlist.push(film);
-    }else if(icon.className.includes('fa-heart')){
+    }else if(icon.className.includes('fa-heart') && !favsList.includes(film)){
         favsList.push(film);
     }
 }

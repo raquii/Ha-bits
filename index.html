@@ -15,7 +15,7 @@
     </div>
     <div id='nav-div' class='main-divs'>
         <div id='explore-div' class='sub-divs'>
-            <h3 class='headers'>EXPLORE YOUR FAVORITE 
+            <h3 class='headers'>EXPLORE THE COLLECTION
                 <button type='button' id='explore-films' class='button explore-btn' value='films'>FILMS</button>
                 <button type='button' id='explore-directors' class='button explore-btn' value='directors'>DIRECTORS</button>
                 <button type='button' id='explore-characters' class='button explore-btn' value='characters'>CHARACTERS</button>
@@ -24,7 +24,7 @@
         
         <div id="search-div" class='sub-divs'>
             <form id="search-form" class="form">
-                <h3 class='headers'>SEARCH</h3>
+                <!-- <h3 class='headers'>SEARCH</h3> -->
                     <input type="text" name='keyword-input' id='keyword-input' size='63'>
                     <select id="search-select" name="search-form-select">
                         <option value='keyword'>Keyword</option>
@@ -32,13 +32,21 @@
                         <option value ='director'>Director</option>
                         <option value ='character'>Character</option>
                     </select>
-                    <input type="submit" name='submit' value='SEARCH' class='submit button'>
+                    <button type="submit" name='submit' value='SEARCH' class='submit button'><i class='fas fa-search'></i> </button>
             </form>
         </div>
+
+        <div id='view-lists' class='sub-divs'>
+            <h3 class='headers'>VIEW YOUR
+                <button type='button' id='favorites' class='button explore-btn' value='favorites'><i class='fas fa-heart'></i> FAVORITE FILMS</button>
+                <button type='button' id='watchlist' class='button explore-btn' value='watchlist'><i class='fas fa-star'></i> WATCHLIST</button>
+            </h3>
+        </div>
+
     </div>
 
     <div>
-        <h3 id='results-info'></h3>
+        <h3 id='results-info' class='alert'></h3>
     </div>
     
     <div id='results-contain' class='main-divs'>
