@@ -289,7 +289,7 @@ function miniCardCreator(data){
     const miniCardDiv = document.querySelector('#mini-grid')
 
     const miniCard = document.createElement('div');
-    miniCard.id = data['url'].slice(22);
+    miniCard.id = data['url'].slice(39);
     miniCard.className = 'mini-cards';
     miniCardDiv.appendChild(miniCard);
     miniCard.addEventListener('click', moreInfoHandler);
