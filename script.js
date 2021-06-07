@@ -153,7 +153,6 @@ function addCard(data){
     popupDiv.className = 'results-pop-up';
     resultsCardDiv.appendChild(popupDiv);
     
-
     const resultsHeader = document.createElement('h3');
     resultsHeader.className = 'card-title';
     resultsHeader.innerText = data['title'] ? data['title'] : data['name'] ;
@@ -167,13 +166,44 @@ function addCard(data){
     description.className = 'card-p';
     description.innerText = data['description'];
     descriptDiv.appendChild(description)
+
+    const interactiveDiv = document.createElement('div');
+    interactiveDiv.className = 'interactive';
+    resultsCardDiv.appendChild(interactiveDiv);
+    interactiveDiv.addEventListener('click', function(e){e.stopPropagation()});
+
+    const heartBtn = document.createElement('button');
+    heartBtn.name = 'favorite';
+    heartBtn.className = 'interactiveBtn';
+    heartBtn.type = 'button';
+    heartBtn.innerHTML = `<span class="far fa-heart"></span>`;
+    heartBtn.addEventListener('click', heartHandler);
+    interactiveDiv.appendChild(heartBtn);
 }
+
+//heart button handler
+function heartHandler(e){
+    let icon = e.currentTarget.lastChild;
+    console.log(icon)
+    if (icon.className.includes('far')){
+        icon.classList.remove("far");
+        icon.classList.add("fas");
+    }else if (icon.className.includes('fas')){
+        icon.classList.remove("fas");
+        icon.classList.add("far");
+    }
+}
+
+
+//results filter buttons
+// function addFilterButtons(){
+//     const alphaBtn = document.createElement('button')
+// }
 
 //handles hidding current results and fetching data when user clicks on cards
 function moreInfoHandler(e){
     const id = e.currentTarget.id
-    console.log(id);
-    
+        
     moreInfoClearer();
 
     fetch(`https://kikis-ghibli-app.herokuapp.com/${id}`)
