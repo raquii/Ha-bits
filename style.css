@@ -282,7 +282,7 @@ input[type=text]:focus {
 #mini-grid {
 	display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
@@ -298,7 +298,7 @@ input[type=text]:focus {
 }
 
 .mini-cards img {
-	height: inherit;
+	height: 12vh;
 	object-fit: cover;
 	width: 12vh;
 }
