@@ -139,7 +139,7 @@ function addCard(data){
     resultsDiv.style = 'display:'
 
     const resultsCardDiv = document.createElement('div');
-    resultsCardDiv.id = data['url'].slice(22);
+    resultsCardDiv.id = data['url'].slice(39);
     resultsCardDiv.className = 'results-card';
     resultsDiv.appendChild(resultsCardDiv);
     
