@@ -1,4 +1,4 @@
-# KIKI'S DELIVERY APP
+# KIKI'S GHIBLI APP
 
 A simple fan webapp for exploring the films and characters of Studio Ghibli. 
 
