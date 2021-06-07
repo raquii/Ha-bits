@@ -21,7 +21,7 @@ function filmsHandler(){
     resultsInfo.innerText = '';
     
     
-    fetch('http://localhost:3000/films')
+    fetch('https://kikis-ghibli-app.herokuapp.com/films')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
@@ -31,7 +31,7 @@ function directorHandler(){
     resultsInfo.innerText = ''
  
 
-    fetch('http://localhost:3000/directors')
+    fetch('https://kikis-ghibli-app.herokuapp.com/directors')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
@@ -41,7 +41,7 @@ function charaHandler(){
     resultsInfo.innerText = ''
 
 
-    fetch('http://localhost:3000/characters')
+    fetch('https://kikis-ghibli-app.herokuapp.com/characters')
     .then(r=>r.json())
     .then(data=>cardCreator(data));
 }
@@ -68,28 +68,28 @@ function searchHandler(e){
 
 //fetches results by keywork search
 function keywordFetch(input){
-    fetch(`http://localhost:3000/films?q=${input}`)
+    fetch(`https://kikis-ghibli-app.herokuapp.com/films?q=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
 
 //fetches results by Title search
 function titleFetch(input){
-    fetch(`http://localhost:3000/films?title_like=${input}`)
+    fetch(`https://kikis-ghibli-app.herokuapp.com/films?title_like=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
 
 //fetches results by Character search
 function characterFetch(input){
-    fetch(`http://localhost:3000/characters?name_like=${input}`)
+    fetch(`https://kikis-ghibli-app.herokuapp.com/characters?name_like=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
 
 //fetches results by Character search
 function directorFetch(input){
-    fetch(`http://localhost:3000/directors?name_like=${input}`)
+    fetch(`https://kikis-ghibli-app.herokuapp.com/directors?name_like=${input}`)
     .then(res => res.json())
     .then(data => searchResults(data))
 }
@@ -176,7 +176,7 @@ function moreInfoHandler(e){
     
     moreInfoClearer();
 
-    fetch(`http://localhost:3000/${id}`)
+    fetch(`https://kikis-ghibli-app.herokuapp.com/${id}`)
     .then(res=>res.json())
     .then(data=>addMoreInfo(data))
 }
