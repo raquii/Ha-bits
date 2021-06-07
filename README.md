@@ -2,7 +2,7 @@
 
 A simple fan webapp for exploring the films and characters of Studio Ghibli. 
 
->The project is hosted [here](https://raquii.github.io/js-project/).
+>The project is hosted [here](https://raquii.github.io/kikis-ghibli-app/).
 
 ## General Information
 - This app allows users to explore information about the films of Studio Ghibli. 
