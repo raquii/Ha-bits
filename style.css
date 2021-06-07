@@ -30,6 +30,15 @@ body{
     box-shadow: inset 0 0 0.8em rgba(255,255,255,0.3), 0 0 0.8em rgba(255,255,255,0.3);
 }
 
+#main-header{
+    margin:1em .5em 0 1em;
+}
+
+#main-subhead{
+    margin:0 0 2em 2.5em;
+    display:block;
+}
+
 #nav-div{
     margin: 10pt;
     text-align: center;
@@ -131,6 +140,16 @@ input[type=text]:focus {
     margin: 0 auto;
     text-align: center;
     color:#fafbfa;
+}
+
+#welcome-div{
+    background-color: #fafbfa3a;
+    border-radius: 4pt;
+    margin: 4em 8em 2em 8em;
+    padding: 1em 4em 1em 4em;
+    text-align: center;
+    box-shadow: inset 0 0 0 #203daf63, 0 0 1.2em #203daf63;
+    color:#203daf;
 }
 
 .results-pop-up{
