@@ -167,40 +167,75 @@ function addCard(data){
     description.innerText = data['description'];
     descriptDiv.appendChild(description)
 
-    const interactiveDiv = document.createElement('div');
-    interactiveDiv.className = 'interactive';
-    resultsCardDiv.appendChild(interactiveDiv);
-    interactiveDiv.addEventListener('click', function(e){e.stopPropagation()});
+    if(data['title']){
+        const interactiveDiv = document.createElement('div');
+        interactiveDiv.className = 'interactive';
+        resultsCardDiv.appendChild(interactiveDiv);
+        interactiveDiv.addEventListener('click', function(e){e.stopPropagation()});
 
-    const heartBtn = document.createElement('button');
-    heartBtn.name = 'favorite';
-    heartBtn.className = 'interactiveBtn';
-    heartBtn.type = 'button';
-    heartBtn.innerHTML = `<span class="far fa-heart"></span>`;
-    heartBtn.addEventListener('click', heartHandler);
-    interactiveDiv.appendChild(heartBtn);
-}
+        const heartBtn = document.createElement('button');
+        heartBtn.name = 'favorite';
+        heartBtn.className = 'interactiveBtn';
+        heartBtn.classList.add('heartBtn');
+        heartBtn.type = 'button';
+        heartBtn.innerHTML = `<span class="far fa-heart"></span>`;
+        heartBtn.addEventListener('click', interBtnHandler);
+        interactiveDiv.appendChild(heartBtn);
 
-//heart button handler
-function heartHandler(e){
-    let icon = e.currentTarget.lastChild;
-    console.log(icon)
-    if (icon.className.includes('far')){
-        icon.classList.remove("far");
-        icon.classList.add("fas");
-    }else if (icon.className.includes('fas')){
-        icon.classList.remove("fas");
-        icon.classList.add("far");
+        const starBtn = document.createElement('button');
+        starBtn.name = 'favorite';
+        starBtn.className = 'interactiveBtn';
+        starBtn.classList.add('starBtn');
+        starBtn.type = 'button';
+        starBtn.innerHTML = `<span class="far fa-star"></span>`;
+        starBtn.addEventListener('click', interBtnHandler);
+        interactiveDiv.appendChild(starBtn);
     }
 }
 
+let favsList = [];
+let watchlist = [];
 
-//results filter buttons
-// function addFilterButtons(){
-//     const alphaBtn = document.createElement('button')
-// }
+//interactive button handler
+function interBtnHandler(e){
+    let icon = e.currentTarget.lastChild;
+    
+    if (icon.className.includes('far')){
+        icon.classList.remove("far");
+        icon.classList.add("fas");
+        addToList(e);
+    }else if (icon.className.includes('fas')){
+        icon.classList.remove("fas");
+        icon.classList.add("far");
+        removeFromList(e);
+    }
+}
 
-//handles hidding current results and fetching data when user clicks on cards
+//add to fav or watchlist
+function addToList(e){
+    let icon = e.currentTarget.lastChild;
+    let film = e.currentTarget.parentNode.parentNode.id;
+
+    if(icon.className.includes('fa-star')){
+        watchlist.push(film);
+    }else if(icon.className.includes('fa-heart')){
+        favsList.push(film);
+    }
+}
+
+//remove from fav or watchlist
+function removeFromList(e){
+    let icon = e.currentTarget.lastChild;
+    let film = e.currentTarget.parentNode.parentNode.id;
+
+    if(icon.className.includes('fa-star')){
+        return watchlist.splice(watchlist.indexOf(film), 1);
+    }else if(icon.className.includes('fa-heart')){
+        return favsList.splice(favsList.indexOf(film), 1);
+    }
+}
+
+//handles hiding current results and fetching data when user clicks on cards
 function moreInfoHandler(e){
     const id = e.currentTarget.id
         

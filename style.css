@@ -4,7 +4,7 @@
 }
 
 html{
-    height: 100%;
+    height: auto;
 }
 
 /*main gradient*/
@@ -214,13 +214,40 @@ input[type=text]:focus {
 
 .interactiveBtn{
     height: 30px;
-    width:30px;
+    border-radius: 20pt;
+    border: #fafbfa solid 2px;
     font-size:12px;
-    background-color: #fafbfa;
+    color: #203daf;
+    background-color: #fafbfad7;
+    margin: .5em 0em .5em 0em;
 }
 
 .interactiveBtn span{
     pointer-events: none;
+}
+
+.heartBtn{
+    margin-left: .5em;
+}
+
+.fas.fa-heart{
+    color:#c80a2a;
+}
+
+.fas.fa-star{
+    color:#f9ac1f;
+}
+
+.heartBtn:hover::after{
+    content: ' favorite'
+}
+
+.starBtn{
+    margin-left: 1em;
+}
+
+.starBtn:hover::after{
+    content: ' watchlist'
 }
 
 /*More Info Card Styling*/
