@@ -100,7 +100,6 @@ input[type=text]:focus {
 #search-select{
     display:inline-flex;
     font-size: 16px;
-    width:auto;
     padding: .25em 1.4em 0.1em 1.2em;
     border-radius: 4pt;
     color: #203daf;
@@ -176,11 +175,21 @@ input[type=text]:focus {
 #welcome-div{
     background-color: #fafbfa3a;
     border-radius: 4pt;
+    display: flex;
+    flex-wrap: wrap;
     margin: 4em 8em 2em 8em;
     padding: 1em 4em 1em 4em;
     text-align: center;
     box-shadow: inset 0 0 0 #203daf63, 0 0 1.2em #203daf63;
     color:#203daf;
+}
+
+#welcome-div h2{
+    flex-basis: 100%;
+}
+
+#welcome-div h3{
+    flex-basis: 100%;
 }
 
 .results-pop-up{
