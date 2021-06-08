@@ -371,7 +371,7 @@ function addMoreInfo(data){
 
     const miniCardDiv = document.createElement('div');
     miniCardDiv.id = 'mini-grid';
-    moreTextDiv.appendChild(miniCardDiv);
+    moreInfoDiv.appendChild(miniCardDiv);
 
     const miniHeader = document.createElement('h4');
     miniHeader.className = 'mini-header';
