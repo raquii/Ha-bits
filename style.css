@@ -175,7 +175,7 @@ input[type=text]:focus {
 #welcome-div{
     background-color: #fafbfa3a;
     border-radius: 4pt;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     margin: 4em 8em 2em 8em;
     padding: 1em 4em 1em 4em;
