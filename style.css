@@ -177,7 +177,7 @@ input[type=text]:focus {
     border-radius: 4pt;
     display: inline-flex;
     flex-wrap: wrap;
-    margin: 4em 8em 2em 8em;
+    margin: 4vw 8vw 2vw 8vw;
     padding: 1em 4em 1em 4em;
     text-align: center;
     box-shadow: inset 0 0 0 #203daf63, 0 0 1.2em #203daf63;
