@@ -321,11 +321,11 @@ input[type=text]:focus {
 	color: #fafbfa;
 	font-size: 0.9em;
 	font-weight: bold;
-    height: 55vh;
-	letter-spacing: 0.4em;
-	line-height: 30pt;
+    letter-spacing: 0.4em;
+    height: 35vw;
+	flex: 0 2 0;	
     margin-top: .6em;
-	padding: 23vh .5em 23vh .6em;
+	padding: 0 .5em 0 .6em;
 	transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
 }
 
@@ -344,9 +344,9 @@ input[type=text]:focus {
 	border: #c7e7fc48 solid 2px;
     box-shadow: inset 0 0 0 #203daf63, 0 0 .8em #203daf63;
 	border-radius: 2pt;
-	height: 55vh;
+	height: 35vw;
 	margin: 0.5em;
-	width: auto;
+	flex:0 2 auto;
 }
 
 #more-info-text {
@@ -398,16 +398,16 @@ input[type=text]:focus {
 	border: #c7e7fc48 solid 2px;
     box-shadow: inset 0 0 0 #203daf63, 0 0 0.8em #203daf63;
     border-radius: 2pt;
-    height: 12vh;
+    height: 13vw;
     margin: 0em 0.2em 2.5em 0.2em;
-    width: 12vh;
+    width: 13vw;
     order: 2;
 }
 
 .mini-cards img {
-	height: 12vh;
+	height: 13vw;
 	object-fit: cover;
-	width: 12vh;
+	width: 13vw;
 }
 
 .mini-cards h5 {
