@@ -82,7 +82,6 @@ function showList(e){
 
     if(e.currentTarget.value === 'favorites'){
         if(favsList.length>0){
-            console.log('why?')
             listFetch(favsList)
         }else{
             const alert = document.createElement('h2');
